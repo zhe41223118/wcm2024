@@ -8,6 +8,7 @@
 <p style="padding-left: 30px;">此 Template 將 cmsimde 作為子目錄而非子模組, 使用者可以依照需求自行修改</p>
 <p style="padding-left: 30px;">倉儲對應網站: <a href="https://mde.tw/cmsimde_site">https://mde.tw/cmsimde_site</a></p>
 <h1>cmsimde</h1>
+<p><span style="background-color: #ffff00;"><em><strong>網站目錄功能</strong></em></span></p>
 <p><span style="background-color: #ccffcc;">SMap</span> - SiteMap - 依照階次列出網站的所有頁面.</p>
 <p><span style="background-color: #ccffcc;">EditA</span> - Edit All page - 將所有頁面放入編輯模式中, 主要用來處理頁面搬遷, 刪除或決定衝突頁面內容版本.</p>
 <p><span style="background-color: #ccffcc;">Edit</span> - Edit page - 先選擇要編輯的單一頁面後, 再點選 Edit, 即可進入單一頁面的編輯模式.</p>
@@ -23,8 +24,7 @@
 <p><span style="background-color: #ccffcc;">SStatic</span> - Start Static Site - 利用 Python 啟動網站伺服功能, 可以讓使用者檢查轉檔後的靜態網站內容.</p>
 <p><span style="background-color: #ccffcc;">RStatic</span> - Replit Static Site URL - 僅用於 Replit 模式, 當使用者按下 SStatic 後, 可以按下 RStatic 進入當下尚未推向 Github Pages 的靜態網站.</p>
 <p><span style="background-color: #ccffcc;">80</span> - 由 init.py 中 static_port 所決定的連結字串, 一般不使用 80, 只有在 Replit 中為了與動態網站共用 port, 才特別設為 80.</p>
-<p></p>
-<h1>Replit</h1>
+<p></p><h1>Replit</h1>
 <p><a href="https://replit.com">https://replit.com</a></p>
 <p>利用 init_replit 指令安裝所需 Python 模組<br/><br/>chmod u+x init_replit<br/><br/>./init_replit</p>
 <p dir="auto">On Replit:</p>
@@ -87,15 +87,26 @@
 <p><span><span style="background-color: #ffff00;">git clone --recurse-submodules</span> (.git 指定目錄與否)</span></p>
 <p>------------------------------------------------------------------------------------------------</p>
 <p>以下為自己收錄使用指令(可能有非git指令)</p>
-<p>git submodule update --init (抓下子模組)</p>
-<p>git log (檢視 Git 紀錄 Q鍵離開)</p>
-<p>ls -l (瀏覽)</p>
-<p>pwd (列出現在工作目錄)</p>
-<p>acp ("輸入" 直接上傳)</p>
-<p>dns (將英文名稱轉為數字IP 問server(伺服器)IP地址 DNS會先查詢自己資料庫)</p>
-<p>dir (顯示某個磁碟指定目錄下的全部或部分檔案目錄和子目錄)</p>
+<p><span style="background-color: #ccffff;">git submodule update --init (抓下子模組)</span></p>
+<p><span style="background-color: #ccffff;">git log (檢視 Git 紀錄 Q鍵離開)</span></p>
+<p><span style="background-color: #ccffff;">ls -l (瀏覽)</span></p>
+<p><span style="background-color: #ccffff;">pwd (列出現在工作目錄)</span></p>
+<p><span style="background-color: #ccffff;">acp ("輸入" 直接上傳)</span></p>
+<p><span style="background-color: #ccffff;">dns (將英文名稱轉為數字IP 問server(伺服器)IP地址 DNS會先查詢自己資料庫)</span></p>
+<p><span style="background-color: #ccffff;">dir (顯示某個磁碟指定目錄下的全部或部分檔案目錄和子目錄)</span></p>
 <p></p>
-<p></p><h2>submodule</h2><h1>w4</h1>
+<p></p><h2>submodule</h2>
+<p>主要還是參照導師的<a href="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/stream.aspx?id=%2Fpersonal%2Fyen%5Fnfu%5Fedu%5Ftw%2FDocuments%2F2024%2Fwcm2024%2Fvideo%2Fwcm2024%5F1a%5Fw3%5F2%5F%E5%B0%87%E7%B5%84%E5%93%A1%E7%9A%84%E5%80%8B%E4%BA%BA%E5%80%89%E5%84%B2%E7%B4%8D%E7%82%BA%E5%88%86%E7%B5%84%E5%80%89%E5%84%B2%E7%9A%84%E5%AD%90%E6%A8%A1%E7%B5%84%2Emp4&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;ga=1&amp;referrer=StreamWebApp%2EWeb&amp;referrerScenario=AddressBarCopied%2Eview">這個影片</a>來完成的。</p>
+<p>整理了導師在影片中應用到的指令：</p>
+<p><span style="background-color: #ffff00;">git status</span></p>
+<p><span style="background-color: #ffff00;">ls -l</span></p>
+<p><span style="background-color: #ffff00;">clear</span></p>
+<p><span style="background-color: #ffff00;">git submodule add 自己倉儲網址.git空格+學號</span></p>
+<p><span style="background-color: #ffff00;">git add .</span></p>
+<p><span style="background-color: #ffff00;">git commit -m "add 學號 submodule"</span></p>
+<p><span style="background-color: #ffff00;">git push</span></p>
+<p>以上指令。</p>
+<p>操作部分是在github的Codespaces上執行。</p><h1>w4</h1>
 <h1>file</h1>
 <p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41223118_nfu_edu_tw/ETIaH2KB2dxKjbJpkxS6kO4B4eo0QaeH3iW0rxUfqBMMng?e=cINExf">portable_2024.7z</a> 可攜程式環境檔</p><h1>memo</h1>
 <p>課程teams code：<strong><span style="background-color: #ffff00;">ry8vdyo</span></strong></p>
