@@ -142,7 +142,26 @@ img.add_border {
           </div>
 
         </header>
-    <div id="tipue_search_content">application << <a href='application.html'>Previous</a> <a href='w7.html'>Next</a> >> w7<br /><h1>init to push</h1><br />application << <a href='application.html'>Previous</a> <a href='w7.html'>Next</a> >> w7</div>
+    <div id="tipue_search_content">application << <a href='application.html'>Previous</a> <a href='w7.html'>Next</a> >> w7<br /><h1>init to push</h1>
+<p>首先要先啟動好個人的可攜式近端程式：</p>
+<p><em><strong>1.</strong></em>在Y<span>:\tmp分別建立gitproject\repository和gitserver\repository共四個目錄。(mkdir)</span></p>
+<p><span><em><strong>2.</strong></em>在gitproject\repository和gitserver\repository裡分別再新增名稱為repo1的目錄。</span></p>
+<p><span><em><strong>3.</strong></em>繼2.在Y:\tmp\gitproject\repo1裡新增新檔案<span style="background-color: #ffff00;">README.md</span>，</span></p>
+<p><span>內容有：</span></p>
+<p>echo "Hello, World!" &gt; README.md</p>
+<p>git add README.md</p>
+<p>git commit -m "Initial commit"</p>
+<p>git remote add origin y:\tmp\gitserver\repository\repo1</p>
+<p>git push -u origin main</p>
+<p><em><strong>4.</strong></em><span>在Y:\tmp\gitproject&gt;<strong><span style="background-color: #ffff00;">git config --global init.defaultBranch main</span></strong>，</span></p>
+<p><span>設定git init採用main作為內定主分支，</span></p>
+<p><span>之後使用<strong><span style="background-color: #ffff00;">git init</span></strong>，創建<span style="background-color: #ffff00;">.git</span>。(如圖</span><span>)</span></p>
+<p><span><img alt="" height="129" src="./../images/003.png" width="722"/></span></p>
+<p><span><em><strong>5.</strong></em>完成以上步驟後，將Y:\tmp\gitproject\repo1中的倉儲內容送到Y:\tmp\gitserver\repository\repo1目錄中，在C:\tmp\repository&gt;執行 git clone Y:\tmp\gitserver\repository\repo1。</span></p>
+<p><span style="background-color: #ccffcc;">(因為沒有特別說明倉儲clone後的目錄名稱，因此git會將Y:\tmp\gitserver\repository\repo1內容複製一份放入 C:\tmp\repository\repo1目錄裡)</span></p>
+<p><span><em><strong>6.</strong></em>Y:\tmp\gitserver\repository\repo1裡的資料現在已分別存入Y:\tmp\gitproject\repo1與 C:\tmp\repository\repo1裡，<span style="background-color: #ffff00;">可以分別在這兩個倉儲中進行改版 提交</span>，再設法將改版內容<span style="background-color: #ffff00;">push</span>到 Y:\tmp\gitserver\repository\repo1中。</span></p>
+<p><span>(想讓使用者<span style="background-color: #ffff00;">跨網路存取Windows</span>操作系統上的倉儲，請參考<a href="https://stackoverflow.com/questions/377213/git-serve-i-would-like-it-that-simple">這裡</a>)</span></p>
+<p><span></span></p><br />application << <a href='application.html'>Previous</a> <a href='w7.html'>Next</a> >> w7</div>
 
     <!-- footer -->
       <div class="container">
