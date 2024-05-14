@@ -251,15 +251,18 @@
 <p>分支：就是在當下的版本的另一條屬於自己的版本，比如說是原本一條的河流，突然變成兩條(甚至以上)，他們在本質上是屬於同一支源流，但每個分支出來會呈現的形式都是不同，最終都會匯聚至大海，而大海就是我們衝突裡的主流，每個人在自己的分支裡做自己想做的，最後要統整合併為一個主流，將每次上傳時都可能遇到的處理衝突問題次數降低。</p>
 <h2>branch</h2>
 <p>將分支會用到的所有程式統整。</p>
-<p>(這裡只放了有關分支的程式碼，如需更詳細了解可參考<a href="https://www.youtube.com/watch?v=N4QPHMznMGc&amp;t=623s">影片一</a> <a href="https://www.youtube.com/watch?v=IeCdIhAebec">影片二</a>，這兩支導師課堂影片)</p>
+<p><span style="background-color: #ccffcc;">(這裡只放了有關分支的程式碼，如需更詳細了解可參考<a href="https://www.youtube.com/watch?v=N4QPHMznMGc&amp;t=623s" style="background-color: #ccffcc;">影片一</a> <a href="https://www.youtube.com/watch?v=IeCdIhAebec" style="background-color: #ccffcc;">影片二</a>，這兩支導師課堂影片)</span></p>
 <p>git branch 檢視現有分支</p>
 <p><br/>git checkout 切換到指定分支</p>
 <p><br/>git merge main 將分支內容合併給main</p>
 <p><br/>git push origin ？？ 遠端上傳並建立分支</p>
-<p><br/>git merge ？？ 將分支合併至main(注意檢查自己在哪個branch)</p>
+<p><br/>git merge ？？ 將分支合併至main<span style="background-color: #ccffcc;">(注意檢查自己在哪個branch)</span></p>
 <p>------------------------------------------------------------------------------------------------------</p>
-<p>執行上述程式後理論上只要git push就能成功上傳了，如果這時有人在你做的過程中新增了新東西，可能就要先git pull將版本更新至其改的最新版後，進行衝突處理。</p>
-<p>ps -a 列出所有執行中的靜動態</p>
+<p>執行上述程式後理論上只要<span style="background-color: #ffff00;">git push</span>就能成功上傳了，如果這時有人在你做的過程中新增了新東西，可能就要先<span style="background-color: #ffff00;">git pull</span>將版本更新至其改的最新版後，進行衝突處理。</p>
+<p>可能會出現，如圖下：</p>
+<p><img alt="" height="162" src="/images/螢幕擷取畫面 (62).png" width="571"/></p>
+<p>選擇圈中第一行字串輸入後<span style="background-color: #ffff00;">git pull</span>即可。</p>
+<p><span style="background-color: #ccffcc;">額外補充：ps -a 列出所有執行中的靜動態</span></p>
 <p></p><h1>w12</h1>
 <p><em><strong>1.</strong></em>開始複習加深前幾周所教學內容</p>
 <p><em><strong>2.</strong></em>評分網站在<span style="background-color: #ffff99;">git pull</span>處理要點</p>
@@ -268,6 +271,7 @@
 <p><span><em><strong>3.</strong></em>導師心得評語，修改評分網站中個人心得</span></p>
 <p><span><em><strong>4.</strong></em>提到學校網站利用<a href="https://www.php.net/">php</a>(<a href="https://zh.wikipedia.org/zh-tw/PHP"><b>P</b>HP: <b>H</b>ypertext <b>P</b>reprocessor</a>)所編寫，提到課程內容進階的關於學校網站排課系統</span></p>
 <p><span><em><strong>5.</strong></em>安裝Claude，AI程式聊天</span></p>
+<h1>w13</h1>
 <p><span></span></p><h2>程式執行</h2>
 <p>這個頁面 demo 如何在同一頁面下納入多個線上 Ace 編輯器與執行按鈕 (<a href="/downloads/practice_html.txt">practice_html.txt</a> 動態頁面超文件).</p>
 <p><a href="/downloads/practice_html.txt">practice_html.txt</a> 動態頁面超文件應該可以在啟動 Brython 時, 設定將 .py 檔案放入 downloads/py 目錄中引用.</p>
