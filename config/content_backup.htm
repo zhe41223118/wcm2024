@@ -697,6 +697,11 @@ if __name__ == '__main__':
     app.run(host='127.0.0.1', port=9447, debug=True, ssl_context="adhoc")</pre>
 <p><span style="background-color: #ccffcc;">(可以利用<strong>pip list</strong> 確認所需模組) 需要Flask和Flask-Cors兩個模組，所用版本也會寫在一旁</span></p>
 <p><img alt="" height="443" src="/images/螢幕擷取畫面 (63).png" width="574"/></p><h2>設為系統服務</h2>
+<p>將取下資料常駐執行在網路頁面上。</p>
+<p>是利用了<a href="https://nssm.cc/usage">NSSM</a>(the Non-Sucking Service Manager)這樣工具。</p>
+<p>執行前要先確認先前的程式能夠單獨運行起來，<a href="https://docs.pylonsproject.org/projects/waitress/en/stable/index.html">python waitress</a> 模組文獻</p>
+<p>1.先在<span style="background-color: #ffff99;">進階防火牆內-進階輸入規則</span>，點擊右側<span style="background-color: #ffff99;">新增規則</span>新增9447新的連接埠。</p>
+<p>2.</p>
 <p></p>
 <p></p><h1>w14</h1>
 <p></p>
