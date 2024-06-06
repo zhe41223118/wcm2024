@@ -624,7 +624,8 @@ if __name__=="__main__":
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/39RA7EUUN4Q?si=-HHbXzkvIuh6rJpD" title="YouTube video player" width="560"></iframe></p><h2>近端執行</h2>
 <p><img alt="" height="286" src="/images/123.png" width="566"/></p>
 <p>只要啟動(python main.py)近端並且知道<a href="http://10.14.62.45:88/">http://10.14.62.45:88/</a> ，這個網址就能進行遊玩。</p><h1>w15</h1>
-<p>本週開始將以個人和各組的專案內容開始的自由時間，導師提到的課程內容只有為前幾週的課程重點複習講解，我所聽到的內容為如何更容易的將個人的網誌(code)以別的方式(近端程式)匯出。</p><h1>Q&amp;A</h1>
+<p>本週開始將以個人和各組的專案內容開始的自由時間，導師提到的課程內容只有為前幾週的課程重點複習講解，我所聽到的內容為如何更容易的將個人的網誌(code)以別的方式(近端程式)匯出。</p><h1>w16</h1>
+<h1>Q&amp;A</h1>
 <p>完成了w2時想要新增的內容至此頁面，搜尋了官方Disqus的<a href="https://help.disqus.com/en/">相關建議與解答</a>最終完成的初步留言系統，之後想再更新並新增至各個頁面中。</p>
 <p></p>
 <p></p>
@@ -648,9 +649,36 @@ if __name__=="__main__":
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><h1>個人專案</h1>
-<p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41223118_nfu_edu_tw/EbByPCRXpxRHmsr0kTOWGTgB7Kw9a_CEnKZMow1DAIWYYw?e=LnJZaa">v1.7z</a></p>
-<p></p>
-<h1>file</h1>
+<p>我想要製作一個俄羅斯方塊。</p>
+<p>現在的出版設計為將<a href="https://zh.wikipedia.org/zh-tw/%E4%BF%84%E7%BE%85%E6%96%AF%E6%96%B9%E5%A1%8A">這個網站</a>的資料導入給GPT，然後請他幫我製作一個遊戲的初版代碼。</p>
+<p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41223118_nfu_edu_tw/EbByPCRXpxRHmsr0kTOWGTgB7Kw9a_CEnKZMow1DAIWYYw?e=LnJZaa">v1.7z</a> (初版遊戲)</p>
+<p>內容主要為：</p>
+<p>.html (講述了網頁上各元素的意義和屬性)</p>
+<p>.css (用來幫結構化文件.html 添加樣式的電腦語言)</p>
+<p>.js (一門<span>支援物件導向程式設計、指令式編程和函數式程式設計</span>)</p>
+<p>三個程式代碼執行，現在這個遊戲是能夠遊玩，但缺點也是很多：</p>
+<p>1.網頁只能以資料夾所在位置開啟，不能在網址上開啟。</p>
+<p>2.遊戲本身過於單調 方塊翻轉問題缺陷。</p>
+<p>經過以上幾點問題，我重新將程式整理好</p>
+<p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41223118_nfu_edu_tw/ERol-Iwu6HZBnqxHSV5_xDQB0zENjJzv5oLt2uq3kpgHfQ?e=4cR8AP">V2.7z</a> (修改後第二版遊戲)</p>
+<p>新增了：</p>
+<p>1.遊戲最高分紀錄</p>
+<p>2.遊戲開始前玩家名稱輸入</p>
+<p>3.按下空白鍵能夠暫停遊戲</p>
+<p>但問題也是有的，方塊一樣有修改，卻變得無法轉動，按暫停時遊戲直接結算歸零，遊戲玩家名稱輸入視窗點擊會不斷跳出等。</p>
+<p>PS：</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('GAME.html')
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8000, debug=True)</pre>
+<p>此為在詢問claude問得的設置遊戲網址的程式代碼(須是.py形式)</p>
+<p></p><h1>file</h1>
 <p>此課程所用到的所有檔案統整都在這裡。</p>
 <p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41223118_nfu_edu_tw/ETIaH2KB2dxKjbJpkxS6kO4B4eo0QaeH3iW0rxUfqBMMng?e=cINExf">portable_2024.7z</a> 可攜程式環境檔</p>
 <p><a href="/downloads/main2.txt">main2.txt</a>，<a href="/downloads/static.txt">static.txt</a> replit靜態執行所檔案程式</p>
