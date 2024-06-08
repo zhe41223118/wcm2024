@@ -651,7 +651,7 @@ if __name__=="__main__":
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><h1>個人專案</h1>
 <p>我想要製作一個俄羅斯方塊。</p>
-<p>現在的出版設計為將<a href="https://zh.wikipedia.org/zh-tw/%E4%BF%84%E7%BE%85%E6%96%AF%E6%96%B9%E5%A1%8A">這個網站</a>的資料導入給GPT，然後請他幫我製作一個遊戲的初版代碼。</p>
+<p>現在的初版設計為將<a href="https://zh.wikipedia.org/zh-tw/%E4%BF%84%E7%BE%85%E6%96%AF%E6%96%B9%E5%A1%8A">這個網站</a>的資料導入給GPT，然後請他幫我製作一個遊戲的初版代碼。</p>
 <p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41223118_nfu_edu_tw/EbByPCRXpxRHmsr0kTOWGTgB7Kw9a_CEnKZMow1DAIWYYw?e=LnJZaa">v1.7z</a> (初版遊戲)</p>
 <p>內容主要為：</p>
 <p>.html (講述了網頁上各元素的意義和屬性)</p>
@@ -679,7 +679,34 @@ def index():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8000, debug=True)</pre>
 <p>此為在詢問claude問得的設置遊戲網址的程式代碼(須是.py形式)</p>
-<p></p><h1>file</h1>
+<h2>改版優化1</h2>
+<p>經過重新修改.py檔的內容，將內容修改為：</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">import http.server  # 匯入 HTTP 伺服器模組
+import socketserver  # 匯入 TCP 伺服器模組
+
+PORT = 8000  # 定義伺服器將監聽的埠號
+DIRECTORY = "."  # 定義伺服器將提供檔案的目錄，"." 表示當前目錄
+
+# 定義一個自訂的請求處理器類別，繼承自 SimpleHTTPRequestHandler
+class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler):
+    def __init__(self, *args, **kwargs):
+        # 呼叫MyHttpRequestHandler建構函式，並設定目錄參數
+        super().__init__(*args, directory=DIRECTORY, **kwargs)
+
+handler = MyHttpRequestHandler  # 建立處理器的實例
+
+# 建立一個 TCP 伺服器，綁定到指定的 IP 位址和埠，並使用自訂的請求處理器
+with socketserver.TCPServer(("192.168.0.41", PORT), handler) as httpd:
+    print(f"Serving at http://192.168.0.41:{PORT}")  # 輸出伺服器啟動的訊息
+    httpd.serve_forever()  # 啟動伺服器，持續監聽並處理請求
+</pre>
+<p></p>
+<p>此檔名我命名為123.py，只需在自己的可攜程式啟動近端後，執行python 123.py，就能在</p>
+<p><a href="http://192.168.0.41:8000/GAME.html">http://192.168.0.41:8000/GAME.html</a> 這個網址下找到我的遊戲</p>
+<p>我的第三次改版遊戲：<a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41223118_nfu_edu_tw/EcgbZXF8CKZHpiXEvmGN4voBM9W9Lj273hh9JDi0Y-9P3g?e=3dEosx">v3.7z</a></p>
+<p>問題：</p>
+<p>1.我只解決了如何在使用近端啟動，讓遊戲在網址上顯示，遊戲本身還需優化更新</p>
+<p>2.我的網址是設定我的本機現在位置，但當我的本機位置改變時，需將123.py的網址再做修改</p><h1>file</h1>
 <p>此課程所用到的所有檔案統整都在這裡。</p>
 <p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41223118_nfu_edu_tw/ETIaH2KB2dxKjbJpkxS6kO4B4eo0QaeH3iW0rxUfqBMMng?e=cINExf">portable_2024.7z</a> 可攜程式環境檔</p>
 <p><a href="/downloads/main2.txt">main2.txt</a>，<a href="/downloads/static.txt">static.txt</a> replit靜態執行所檔案程式</p>

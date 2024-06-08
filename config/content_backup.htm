@@ -625,7 +625,8 @@ if __name__=="__main__":
 <p><img alt="" height="286" src="/images/123.png" width="566"/></p>
 <p>只要啟動(python main.py)近端並且知道<a href="http://10.14.62.45:88/">http://10.14.62.45:88/</a> ，這個網址就能進行遊玩。</p><h1>w15</h1>
 <p>本週開始將以個人和各組的專案內容開始的自由時間，導師提到的課程內容只有為前幾週的課程重點複習講解，我所聽到的內容為如何更容易的將個人的網誌(code)以別的方式(近端程式)匯出。</p><h1>w16</h1>
-<h1>Q&amp;A</h1>
+<p><em><strong>1.</strong></em>在規定時間內填寫<a href="https://github.com/mdecycu/wcm2024">導師網站</a>倉儲的問卷回答。(Discussions裡的第一項)</p>
+<p><em><strong>2.</strong></em>依個人各組繼續進行期末作業</p><h1>Q&amp;A</h1>
 <p>完成了w2時想要新增的內容至此頁面，搜尋了官方Disqus的<a href="https://help.disqus.com/en/">相關建議與解答</a>最終完成的初步留言系統，之後想再更新並新增至各個頁面中。</p>
 <p></p>
 <p></p>
@@ -650,7 +651,7 @@ if __name__=="__main__":
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><h1>個人專案</h1>
 <p>我想要製作一個俄羅斯方塊。</p>
-<p>現在的出版設計為將<a href="https://zh.wikipedia.org/zh-tw/%E4%BF%84%E7%BE%85%E6%96%AF%E6%96%B9%E5%A1%8A">這個網站</a>的資料導入給GPT，然後請他幫我製作一個遊戲的初版代碼。</p>
+<p>現在的初版設計為將<a href="https://zh.wikipedia.org/zh-tw/%E4%BF%84%E7%BE%85%E6%96%AF%E6%96%B9%E5%A1%8A">這個網站</a>的資料導入給GPT，然後請他幫我製作一個遊戲的初版代碼。</p>
 <p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41223118_nfu_edu_tw/EbByPCRXpxRHmsr0kTOWGTgB7Kw9a_CEnKZMow1DAIWYYw?e=LnJZaa">v1.7z</a> (初版遊戲)</p>
 <p>內容主要為：</p>
 <p>.html (講述了網頁上各元素的意義和屬性)</p>
@@ -678,7 +679,28 @@ def index():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8000, debug=True)</pre>
 <p>此為在詢問claude問得的設置遊戲網址的程式代碼(須是.py形式)</p>
-<p></p><h1>file</h1>
+<h2>改版優化</h2>
+<p>經過重新修改.py檔的內容，將內容修改為：</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">import http.server  # 匯入 HTTP 伺服器模組
+import socketserver  # 匯入 TCP 伺服器模組
+
+PORT = 8000  # 定義伺服器將監聽的埠號
+DIRECTORY = "."  # 定義伺服器將提供檔案的目錄，"." 表示當前目錄
+
+# 定義一個自訂的請求處理器類別，繼承自 SimpleHTTPRequestHandler
+class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler):
+    def __init__(self, *args, **kwargs):
+        # 呼叫MyHttpRequestHandler建構函式，並設定目錄參數
+        super().__init__(*args, directory=DIRECTORY, **kwargs)
+
+handler = MyHttpRequestHandler  # 建立處理器的實例
+
+# 建立一個 TCP 伺服器，綁定到指定的 IP 位址和埠，並使用自訂的請求處理器
+with socketserver.TCPServer(("192.168.0.41", PORT), handler) as httpd:
+    print(f"Serving at http://192.168.0.41:{PORT}")  # 輸出伺服器啟動的訊息
+    httpd.serve_forever()  # 啟動伺服器，持續監聽並處理請求
+</pre>
+<p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41223118_nfu_edu_tw/EcgbZXF8CKZHpiXEvmGN4voBM9W9Lj273hh9JDi0Y-9P3g?e=3dEosx">v3.7z</a></p><h1>file</h1>
 <p>此課程所用到的所有檔案統整都在這裡。</p>
 <p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41223118_nfu_edu_tw/ETIaH2KB2dxKjbJpkxS6kO4B4eo0QaeH3iW0rxUfqBMMng?e=cINExf">portable_2024.7z</a> 可攜程式環境檔</p>
 <p><a href="/downloads/main2.txt">main2.txt</a>，<a href="/downloads/static.txt">static.txt</a> replit靜態執行所檔案程式</p>
