@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-14T07:35:48+08:00</updated><entry><title>2024 w9 課程整理</title><link href="./2024-Spring-w9-blog-tutorial.html" rel="alternate"></link><published>2024-04-18T10:00:00+08:00</published><updated>2024-06-14T07:35:48+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-18:./2024-Spring-w9-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關本堂課 網際內容管理-Web-based Content Management&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-14T09:18:46+08:00</updated><entry><title>2024 期中課程整理</title><link href="./2024-Spring-w10-blog-tutorial.html" rel="alternate"></link><published>2024-04-19T10:00:00+08:00</published><updated>2024-06-14T09:12:17+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-19:./2024-Spring-w10-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關本堂課 期中重點統整&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;有關本堂課 期中重點統整&lt;/p&gt;
+
+
+&lt;h1&gt;網頁式內容管理&lt;/h1&gt;
+&lt;p&gt;建立自己倉儲帳號，首先本門課有事先準備好一個範例的倉儲網頁框架，只要至那他上註冊好的個人帳號網址，save後就能克隆該網站，可以選擇是要使用replit或是使用倉儲本身新更新的 codespaces 這兩個或其他軟體進行維護網站，在那之前，需要現建立環境：&lt;/p&gt;
+&lt;p&gt;在shell 輸入 chmod u+x init_replit 之後 ./init_replit 這樣就能安裝所需的 Python 模組&lt;/p&gt;
+&lt;p&gt;在儲存庫頁面，點擊 Settings&lt;/p&gt;
+&lt;p&gt;滾動到 GitHub Pages 部分&lt;/p&gt;
+&lt;p&gt;在 Source 下拉，選擇儲存庫中的一個分支（ main 或 master）和根目錄（/root），然後點擊 Save&lt;/p&gt;
+&lt;p&gt;這樣就會看到一條通知，告訴知你的網站已經被發布，稍後就可以在指定的 URL 訪問您的網站&lt;/p&gt;
+&lt;h2&gt;章節式標題&lt;/h2&gt;
+&lt;p&gt;一般在啟動動態編輯網站後就能在上方工具欄中，選擇想要的格式，或到程式編輯，輸入# 為大標題 ## 為小標題，記得需要空格否則將被視為一般字體大小。&lt;/p&gt;
+&lt;h1&gt;AI&lt;/h1&gt;
+&lt;p&gt;想到AI回應系統，我無疑是最先想到 chatGTP 他在本門課程幫助我們解決了很多，我們不懂的程式問題，但如果只是把它當作問題解決工具，卻不會從中學習她幫助我們解決問題的方式，無疑將會讓我們什麼事都問GPT，導師在課堂上也說過，GPT電腦系統是死的，是要我們去掌控他，而不變的只會ctrl+C+V，系統傀儡。&lt;/p&gt;
+&lt;h1&gt;實作練習&lt;/h1&gt;
+&lt;h2&gt;書籍閱讀統整&lt;/h2&gt;
+&lt;p&gt;有關程式設計初學者書籍-Programming for Absolute Beginners&lt;/p&gt;
+&lt;p&gt;本書列出的電腦程式、電腦程式的一部分或任何應該直接（準確）輸入的內容，都會從文字中偏移並以特殊字體書寫，以幫助我們看出它是一個電腦程式。電腦程序將如下：&lt;/p&gt;
+&lt;p&gt;window.alert("This is an example of a computer program.");&lt;/p&gt;
+&lt;p&gt;現在的計算程式機種類繁多，每種計算機程式的操作方式也不同，它們載入的系統和軟體，每個都有不同的版本，還有許多不同的網頁瀏覽器，每個瀏覽器都有不同的可用功能以及略有不同的工作方式。
+本書引導我們完成設置每個作業系統上的一切。&lt;/p&gt;
+&lt;p&gt;建議我們使用Google Chrome瀏覽器。
+Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，說對於初學者來說應該只是
+適用於任何網頁瀏覽器，包括 Brave、Firefox、Safari、Chrome、Opera 或 Edge。&lt;/p&gt;
+&lt;h2&gt;同時多人連線-Web&lt;/h2&gt;
+&lt;p&gt;能否在同一台電腦上啟動服務，且允許多個使用者同時連線，主要取決於服務的配置、硬體資源的有效利用以及服務管理的方法。
+如果配置了 Web 伺服器來處理多個連線，通常使用的 Web 伺服器包括 Nginx、Apache 或更專業的 Web 應用伺服器如 Gunicorn（Python 應用）、Unicorn 等。&lt;/p&gt;
+&lt;p&gt;例：&lt;/p&gt;
+&lt;p&gt;Nginx：一個高效能的反向代理伺服器和負載平衡器，非常適合處理大量的併發連線。&lt;/p&gt;
+&lt;p&gt;Apache：功能強大且廣泛使用的 Web 伺服器，能夠處理靜態和動態內容。&lt;/p&gt;
+&lt;h2&gt;NSSM&lt;/h2&gt;
+&lt;p&gt;全名- the Non-Sucking Service Manager -服務管理員
+用於將任何可執行文件或腳本作為 Windows 服務運行，在系統啟動時自動運行、以高可靠性運行，這在需要將應用程序或腳本設置為系統服務器，或需要在後台長時間運行的情況下特別用。&lt;/p&gt;
+&lt;p&gt;NSSM 是一個開源項目，其設計目的是彌補 Windows 自帶的服務管理工具的不足之處。&lt;/p&gt;
+&lt;h2&gt;在一台 Windows 電腦快速建立多人帳號&lt;/h2&gt;
+&lt;p&gt;在 Windows 上運行帳號創建腳本：&lt;/p&gt;
+&lt;p&gt;Windows，將 PowerShell 腳本保存為 123.ps1，然後以管理員身份執行 PowerShell 。&lt;/p&gt;
+&lt;p&gt;運行 Python 電子郵件發送腳本：&lt;/p&gt;
+&lt;p&gt;將 Python 腳本保存為 123.py，並根據自己的 SMTP 設置進行配置。
+輸入執行 python 123.py 發送電子郵件。&lt;/p&gt;
+&lt;h1&gt;使用GPT回應心得&lt;/h1&gt;
+&lt;p&gt;在製作這些程式練習時，我無疑第一時間是先跑去問了GTP來告訴我怎模做，但有些時候其實我覺得他給我的回應並不是我希望的，所以我往往要在這個地方反覆的去尋問他，而不只有用GPT在課堂上導師還介紹了，Google Gemini Pro ， claude.ai 這兩個系統也是我在遇到問題時會去詢問的地方，其中他們的比較我認為是差不多的，都一樣是大數據分析後回應我的結果，但其實三種系統會回應我的內容是不同的，有些時候出來的結果雖然是一樣的，差異卻還是有的，可能是我在每個地方詢問時對想要呈現事務的述說都不相同，但我認為就算說的內容都相同，依照他大數據回應都是從中隨機選擇回答，應該讓我的作法都不會一樣，但在製作的過程，我真認為有些限制真的很麻煩，claude可以無限上傳檔案，卻限制詢問次數 GPT無限制詢問次數，卻限制上傳檔案次數，想要無限制或更好的詢問結果無疑都是要我加錢升級。&lt;/p&gt;</content><category term="2024 w9 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w9 課程整理</title><link href="./2024-Spring-w9-blog-tutorial.html" rel="alternate"></link><published>2024-04-19T10:00:00+08:00</published><updated>2024-06-14T09:18:46+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-19:./2024-Spring-w9-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關本堂課 網際內容管理-Web-based Content Management&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關本堂課 網際內容管理-Web-based Content Management&lt;/p&gt;
 
 
@@ -7,7 +49,7 @@
 &lt;p&gt;本門課的目的：利用網頁來管理與個人或專業領域應用相關的內容&lt;/p&gt;
 &lt;p&gt;網際內容管理課程將網頁內容管理系統與網頁資料放在同一個倉儲中，只要有能夠執行 Python 的雲端或近端環境，開啟網頁編輯程式進行改版，上傳資料可在 Github 倉儲中透過 Pages 的全球資訊伺服器呈現網站內容。&lt;/p&gt;
 &lt;p&gt;本課管理系統採用 Python Flask 編寫，超文件的以 H 標註進行分頁外，還有elican 與 Reveal.js 等兩個延伸套件&lt;/p&gt;
-&lt;p&gt;Pelican 可用來建立網誌， Reveal.js 則可用來建立網頁上的簡報資料。&lt;/p&gt;</content><category term="2024 w9 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w8 課程整理</title><link href="./2024-Spring-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-11T10:00:00+08:00</published><updated>2024-06-14T07:31:57+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-11:./2024-Spring-w8-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 教育本質,超連結嵌入影片&lt;/p&gt;
+&lt;p&gt;Pelican 可用來建立網誌， Reveal.js 則可用來建立網頁上的簡報資料。&lt;/p&gt;</content><category term="2024 w9 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w8 課程整理</title><link href="./2024-Spring-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-11T10:00:00+08:00</published><updated>2024-06-14T07:41:43+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-11:./2024-Spring-w8-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 教育本質,超連結嵌入影片&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關 教育本質,超連結嵌入影片&lt;/p&gt;
 
 
