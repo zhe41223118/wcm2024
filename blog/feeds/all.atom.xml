@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-14T07:29:14+08:00</updated><entry><title>2024 w8 課程整理</title><link href="./2024-Spring-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-11T10:00:00+08:00</published><updated>2024-06-14T07:29:14+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-11:./2024-Spring-w8-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 教育本質,超連結嵌入影片&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-14T07:35:48+08:00</updated><entry><title>2024 w9 課程整理</title><link href="./2024-Spring-w9-blog-tutorial.html" rel="alternate"></link><published>2024-04-18T10:00:00+08:00</published><updated>2024-06-14T07:35:48+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-18:./2024-Spring-w9-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關本堂課 網際內容管理-Web-based Content Management&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;有關本堂課 網際內容管理-Web-based Content Management&lt;/p&gt;
+
+
+&lt;h1&gt;相關內容&lt;/h1&gt;
+&lt;p&gt;本門課的目的：利用網頁來管理與個人或專業領域應用相關的內容&lt;/p&gt;
+&lt;p&gt;網際內容管理課程將網頁內容管理系統與網頁資料放在同一個倉儲中，只要有能夠執行 Python 的雲端或近端環境，開啟網頁編輯程式進行改版，上傳資料可在 Github 倉儲中透過 Pages 的全球資訊伺服器呈現網站內容。&lt;/p&gt;
+&lt;p&gt;本課管理系統採用 Python Flask 編寫，超文件的以 H 標註進行分頁外，還有elican 與 Reveal.js 等兩個延伸套件&lt;/p&gt;
+&lt;p&gt;Pelican 可用來建立網誌， Reveal.js 則可用來建立網頁上的簡報資料。&lt;/p&gt;</content><category term="2024 w9 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w8 課程整理</title><link href="./2024-Spring-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-11T10:00:00+08:00</published><updated>2024-06-14T07:31:57+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-11:./2024-Spring-w8-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 教育本質,超連結嵌入影片&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關 教育本質,超連結嵌入影片&lt;/p&gt;
 
 
