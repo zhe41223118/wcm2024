@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-14T07:23:56+08:00</updated><entry><title>2024 w6 課程整理</title><link href="./2024-Spring-w6-blog-tutorial.html" rel="alternate"></link><published>2024-03-28T10:00:00+08:00</published><updated>2024-06-14T07:23:56+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./2024-Spring-w6-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關說明 git,GPT，git基礎使用&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-14T07:29:14+08:00</updated><entry><title>2024 w8 課程整理</title><link href="./2024-Spring-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-11T10:00:00+08:00</published><updated>2024-06-14T07:29:14+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-11:./2024-Spring-w8-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 教育本質,超連結嵌入影片&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;有關 教育本質,超連結嵌入影片&lt;/p&gt;
+
+
+&lt;h1&gt;教育本質&lt;/h1&gt;
+&lt;p&gt;介紹教育本質，相關影片如下：&lt;/p&gt;
+&lt;h1&gt;如何將影片嵌入進自己網站&lt;/h1&gt;
+&lt;p&gt;將自己想上傳的影片內容&lt;/p&gt;
+&lt;p&gt;先放到yt上，之後至自己的yt影片下&lt;/p&gt;
+&lt;p&gt;點擊分享&lt;/p&gt;
+&lt;p&gt;選擇第一個嵌入&lt;/p&gt;
+&lt;p&gt;將顯示在右側的超連結程式碼複製&lt;/p&gt;
+&lt;p&gt;來到動態編輯網站&lt;/p&gt;
+&lt;p&gt;點擊Source code(最下排笑臉右邊)&lt;/p&gt;
+&lt;p&gt;將複製的超連結內容貼上&lt;/p&gt;
+&lt;p&gt;完成。&lt;/p&gt;
+&lt;p&gt;(註：如需有特別需要可以修改超連結內容來完成所需&lt;/p&gt;
+&lt;p&gt;例：width="560" height="315" 為影片的長寬設定)&lt;/p&gt;</content><category term="2024 w8 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w6 課程整理</title><link href="./2024-Spring-w6-blog-tutorial.html" rel="alternate"></link><published>2024-03-28T10:00:00+08:00</published><updated>2024-06-14T07:23:56+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./2024-Spring-w6-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關說明 git,GPT，git基礎使用&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關說明 git,GPT，git基礎使用&lt;/p&gt;
 
 
