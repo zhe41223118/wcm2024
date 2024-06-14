@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - 2024 w12 課程整理</title><link href="./" rel="alternate"></link><link href="./feeds/2024-w12-ke-cheng-zheng-li.atom.xml" rel="self"></link><id>./</id><updated>2024-06-14T10:13:13+08:00</updated><entry><title>2024 w12 課程整理</title><link href="./2024-Spring-w13-blog-tutorial.html" rel="alternate"></link><published>2024-05-09T10:00:00+08:00</published><updated>2024-06-14T10:13:13+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-09:./2024-Spring-w13-blog-tutorial.html</id><summary type="html">&lt;p&gt;複習加深前幾週所教學內容&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - 2024 w12 課程整理</title><link href="./" rel="alternate"></link><link href="./feeds/2024-w12-ke-cheng-zheng-li.atom.xml" rel="self"></link><id>./</id><updated>2024-06-14T10:52:40+08:00</updated><entry><title>2024 w12 課程整理</title><link href="./2024-Spring-w13-blog-tutorial.html" rel="alternate"></link><published>2024-05-09T10:00:00+08:00</published><updated>2024-06-14T10:52:40+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-09:./2024-Spring-w13-blog-tutorial.html</id><summary type="html">&lt;p&gt;複習加深前幾週所教學內容&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;複習加深前幾週所教學內容&lt;/p&gt;
 
 
 &lt;h1&gt;git pull處理要點&lt;/h1&gt;
 &lt;p&gt;如果自己不是最新版本，在pull後內容會顯示新增 修改的內容&lt;/p&gt;
-&lt;p&gt;WSGIserver(Web Server Gateway Interface)：具有高效、易於使用和可擴展性等特點，是 Python 中用於定義 Web 應用程序與 Web 服務器之間通信的標準界面。&lt;a href="https://pypi.org/project/WSGIserver/"&gt;參考&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;WSGIserver(Web Server Gateway Interface)：具有高效、易於使用和可擴展性等特點，是 Python 中用於定義 Web 應用程序與 Web 服務器之間通信的標準界面。(&lt;a href="https://pypi.org/project/WSGIserver/)"&gt;參考&lt;/a&gt; &lt;/p&gt;
 &lt;h1&gt;php&lt;/h1&gt;
-&lt;p&gt;學校網站是利用[php] 
-[php]: https://www.php.net  ([PHP: Hypertext Preprocessor] 
-[PHP: Hypertext Preprocessor]: https://zh.wikipedia.org/zh-tw/PHP  ) 所編寫，課程內容進階的關於學校網站排課系統&lt;/p&gt;
-&lt;h1&gt;猜數字&lt;/h1&gt;</content><category term="2024 w12 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry></feed>
+&lt;p&gt;學校網站是利用php(PHP: Hypertext Preprocessor)所編寫，課程內容進階的關於學校網站排課系統&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.php.net/"&gt;pup&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zh.wikipedia.org/zh-tw/PHP"&gt;PHP: Hypertext Preprocessor&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;猜數字&lt;/h1&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/nVAZJh5PzEM?si=PGLHGAWQD0LJ1BXR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="2024 w12 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry></feed>
