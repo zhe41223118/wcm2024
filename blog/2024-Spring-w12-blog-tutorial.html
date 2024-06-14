@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>網際內容管理系統 - Authors</title>
+  <title>2024 w11 課程整理</title>
 
 
   <meta name="HandheldFriendly" content="True" />
@@ -18,6 +18,7 @@
 
   <!-- Feed -->
         <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="網際內容管理系統 Full Atom Feed" />
+          <link href="./feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="網際內容管理系統 Categories Atom Feed" />
 
   <link href="./theme/css/style.css" type="text/css" rel="stylesheet" />
 
@@ -39,27 +40,51 @@
   <![endif]-->
 
 
+    <link href="./2024-Spring-w12-blog-tutorial.html" rel="canonical" />
+
+        <meta name="description" content="在上週w10中已經讓學員加入了新的評分倉儲網站，以replit進行維護。">
+
+        <meta name="author" content="kmol">
+
+        <meta name="tags" content="網誌編寫">
+        <meta name="tags" content="pelican">
+
+
 
 
 <!-- Open Graph -->
 <meta property="og:site_name" content="網際內容管理系統"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="網際內容管理系統"/>
-<meta property="og:description" content="View the blog."/>
+<meta property="og:title" content="2024 w11 課程整理"/>
+<meta property="og:description" content="在上週w10中已經讓學員加入了新的評分倉儲網站，以replit進行維護。"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="./"/>
-<meta property="og:image" content="./theme/images/home-bg.jpg">
+<meta property="og:url" content="./2024-Spring-w12-blog-tutorial.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2024-05-02 10:00:00+08:00"/>
+<meta property="article:modified_time" content="2024-06-14 09:54:14.394152+08:00"/>
+<meta property="article:author" content="./author/kmol.html">
+<meta property="article:section" content="2024 w11 課程整理"/>
+<meta property="article:tag" content="網誌編寫"/>
+<meta property="article:tag" content="pelican"/>
+<meta property="og:image" content="./theme/images/post-bg.jpg">
 
 <!-- Twitter Card -->
 
 <script type="application/ld+json">
 {
-  "@context" : "http://schema.org",
-  "@type" : "Website",
-  "name": " 網際內容管理系統 ",
-  "url" : "./",
-  "image": "./theme/images/home-bg.jpg",
-  "description": "View the blog."
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "2024 w11 課程整理",
+  "headline": "2024 w11 課程整理",
+  "datePublished": "2024-05-02 10:00:00+08:00",
+  "dateModified": "2024-06-14 09:54:14.394152+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "kmol",
+    "url": "./author/kmol.html"
+  },
+  "image": "./theme/images/post-bg.jpg",
+  "url": "./2024-Spring-w12-blog-tutorial.html",
+  "description": "在上週w10中已經讓學員加入了新的評分倉儲網站，以replit進行維護。"
 }
 </script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
@@ -164,19 +189,31 @@ init_mathjax();
     </ul>
   </div>
 </nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header id="post-header" class="has-cover">
       <div class="inner">
         <nav id="navigation">
             <span id="home-button" class="nav-button">
-                <a class="home-button" href="./" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+                <a class="home-button" href="./index.html" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
             </span>
           <span id="menu-button" class="nav-button">
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">Articles by </h1>
+        <h1 class="post-title">2024 w11 課程整理</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="./author/kmol.html">Kmol</a>
+            | <time datetime="Thu 02 May 2024">Thu 02 May 2024</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <span class="post-meta"> | Updated on Fri 14 June 2024</span>
             <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
       </div>
     </header>
@@ -190,15 +227,63 @@ init_mathjax();
     </form>
 </section>
 
-      <article class="post">
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
         <div class="inner">
-            <a href="./author/kmol.html" rel="bookmark">
-                <h2 class="post-title">
-                    kmol (11)
-                </h2>
-            </a>
-        </div>
-      </article>
+            <section class="post-content">
+                <p>在上週w10中已經讓學員加入了新的評分倉儲網站，以replit進行維護。</p>
+
+
+<h1>branch</h1>
+<p>課程中提到了主要重點：</p>
+<p>所有學員需將分組的小組組別名稱(g4)新增至評分網站中的，為置於專案目錄下，之後將每位學員的關於本課程內容心得，新增至各組別下的目錄。</p>
+<p>這個過程中的困難點就是當多人在同時上傳(push)時，我們要如何應對。</p>
+<p>慢慢等人上傳後自己再上傳顯然是不合效率，所以需以課程所學來應對衝突問題。</p>
+<p>這裡就是需要利用分支處理衝突問題，雖然在上傳時如果當下自己的版本不是最新的，一樣需要將最新的版本git pull下來，然後進入動態網站進行衝突/合併，解決完後才能夠git push上去。</p>
+<p>分支：就是在當下的版本的另一條屬於自己的版本，比如說是原本一條的河流，突然變成兩條(甚至以上)，他們在本質上是屬於同一支源流，但每個分支出來會呈現的形式都是不同，最終都會匯聚至大海，而大海就是我們衝突裡的主流，每個人在自己的分支裡做自己想做的，最後要統整合併為一個主流，將每次上傳時都可能遇到的處理衝突問題次數降低。</p>
+<h2>應用</h2>
+<p>將分支會用到的所有程式統整。</p>
+<p>(這裡只放了有關分支的程式碼，如需更詳細了解可參考影片一 影片二，這兩支導師課堂影片)</p>
+<p>git branch 檢視現有分支</p>
+<p>git checkout 切換到指定分支</p>
+<p>git merge main 將分支內容合併給main</p>
+<p>git push origin ？？ 遠端上傳並建立分支</p>
+<p>git merge ？？ 將分支合併至main(注意檢查自己在哪個branch)</p>
+<p>執行上述程式後理論上只要git push就能成功上傳了，如果這時有人在你做的過程中新增了新東西，可能就要先git pull將版本更新至其改的最新版後，進行衝突處理。</p>
+<p>可能會出現</p>
+<p>git config pull.rebase fiase </p>
+<p>git config pull.rebase trus</p>
+<p>git config pull.ff only</p>
+<p>選擇第一行字串輸入後 git pull 即可</p>
+<p>額外補充：ps -a 列出所有執行中的靜動態</p>
+            </section>
+
+            <section class="post-info">
+                <aside class="post-tags">
+<a href="./tag/wang-zhi-bian-xie.html">網誌編寫</a><a href="./tag/pelican.html">pelican</a>                </aside>
+
+                <div class="clear"></div>
+
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <a class="post-nav-prev" href="./2024-Spring-w11-blog-tutorial.html">
+                        <section class="post-nav-teaser">
+                            <i class="ic ic-arrow-right"></i>
+                                <h2 class="post-nav-title">2024 w10 課程整理</h2>
+                            <p class="post-nav-excerpt">有關 新的分組倉儲</p>
+                        </section>
+                    </a>
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
       <!-- TODO : Body class -->
     <div id="body-class" style="display: none;" class=""></div>
 
