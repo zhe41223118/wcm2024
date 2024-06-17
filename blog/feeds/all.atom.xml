@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-17T16:00:29+08:00</updated><entry><title>2024 w13 課程整理</title><link href="./2024-Spring-w14-blog-tutorial.html" rel="alternate"></link><published>2024-05-16T10:00:00+08:00</published><updated>2024-06-14T10:09:46+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-16:./2024-Spring-w14-blog-tutorial.html</id><summary type="html">&lt;p&gt;從教務處主機直接擷取資料，利用nssm&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-17T16:13:36+08:00</updated><entry><title>2024 w13 課程整理</title><link href="./2024-Spring-w14-blog-tutorial.html" rel="alternate"></link><published>2024-05-16T10:00:00+08:00</published><updated>2024-06-14T10:09:46+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-16:./2024-Spring-w14-blog-tutorial.html</id><summary type="html">&lt;p&gt;從教務處主機直接擷取資料，利用nssm&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;從教務處主機直接擷取資料，利用nssm&lt;/p&gt;
 
 
@@ -193,7 +193,7 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;h1&gt;Replit key建立&lt;/h1&gt;
 &lt;p&gt;講解Replit分組平台倉儲設定。(詳細觀看此TY)&lt;/p&gt;
 &lt;p&gt;主要內容有用.ssh-keygen創建自己的config和id_rsa，刪除重新綁定在replit的倉儲帳號以利重新獲得自己的權限。&lt;/p&gt;
-&lt;p&gt;使用自己下載的可攜程式檔裡的Putty-solvespace.exe(STL)，零件檢視方法。(詳細影片)&lt;/p&gt;</content><category term="2024 w5 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w4 課程整理</title><link href="./2024-Spring-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-14T10:00:00+08:00</published><updated>2024-06-17T16:00:29+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./2024-Spring-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 gitpod, Replit, 不同網頁編輯, LaTeX, 整理資料&lt;/p&gt;
+&lt;p&gt;使用自己下載的可攜程式檔裡的Putty-solvespace.exe(STL)，零件檢視方法。(詳細影片)&lt;/p&gt;</content><category term="2024 w5 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w4 課程整理</title><link href="./2024-Spring-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-14T10:00:00+08:00</published><updated>2024-06-17T16:13:36+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./2024-Spring-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 gitpod, Replit, 不同網頁編輯, LaTeX, 整理資料&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關 gitpod, Replit, 不同網頁編輯, LaTeX, 整理資料&lt;/p&gt;
 
 
@@ -210,22 +210,20 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;h1&gt;replit Codespaces Gitpod&lt;/h1&gt;
 &lt;p&gt;三種網頁編輯執行動態和靜態網站和維護，編輯個人網站的方式不只一種，除了上述三種，能編輯個人網站內容，如：近端維護也是一種，所以當其中一個不能使用時，我們還有另外幾種的維護方式，這變向說明了，在每個人選擇的道路可以有很多種。&lt;/p&gt;
 &lt;h1&gt;LaTeX&lt;/h1&gt;
-&lt;p&gt;期中與期末時需要利用其建立各組的報告，所以需先下載[miktex-portable.7z] 
-[miktex-portable.7z] : https://nfuedu-my.sharepoint.com/personal/41223118_nfu_edu_tw/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments%2Fmiktex%2Dportable%2E7z&amp;amp;parent=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments&amp;amp;ga=1&lt;/p&gt;
+&lt;p&gt;期中與期末時需要利用其建立各組的報告，所以需先下載&lt;a href="https://nfuedu-my.sharepoint.com/personal/41223118_nfu_edu_tw/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments%2Fmiktex%2Dportable%2E7z&amp;parent=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments&amp;ga=1"&gt;miktex-portable.7z&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;利用分組倉儲整理資料&lt;/h1&gt;
-&lt;p&gt;https://github.com/git-guides&lt;/p&gt;
-&lt;p&gt;https://git-scm.com/book/zh-tw/v2&lt;/p&gt;
-&lt;p&gt;https://git-scm.com/book/zh/v2&lt;/p&gt;
-&lt;p&gt;A Tutorial for GitHub.pdf&lt;/p&gt;
-&lt;p&gt;github學習資源 &lt;/p&gt;
-&lt;p&gt;https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources&lt;/p&gt;
-&lt;p&gt;以上等資料統整至分組倉儲網站。&lt;/p&gt;</content><category term="2024 w4 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w3 課程整理</title><link href="./2024-Spring-w3-blog-tutorial.html" rel="alternate"></link><published>2024-03-07T10:00:00+08:00</published><updated>2024-06-14T06:42:26+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./2024-Spring-w3-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 wink, git指令, 子模組&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/git-guides"&gt;https://github.com/git-guides&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="&lt;a href="https://git-scm.com/book/zh-tw/v2"&gt;https://github.com/git-guides&lt;/a&gt;"&gt;https://git-scm.com/book/zh-tw/v2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://git-scm.com/book/zh/v2"&gt;https://git-scm.com/book/zh/v2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nfuedu-my.sharepoint.com/personal/41223118_nfu_edu_tw/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments%2FA%20Tutorial%20for%20GitHub%2Epdf&amp;parent=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments&amp;ga=1"&gt;A Tutorial for GitHub.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources"&gt;github學習資源&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;以上等資料統整至&lt;a href="https://mdewcm2024.github.io/1a-ag4/content/Git%20Tutorial.html"&gt;分組倉儲網站&lt;/a&gt;。&lt;/p&gt;</content><category term="2024 w4 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w3 課程整理</title><link href="./2024-Spring-w3-blog-tutorial.html" rel="alternate"></link><published>2024-03-07T10:00:00+08:00</published><updated>2024-06-17T16:05:48+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./2024-Spring-w3-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 wink, git指令, 子模組&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關 wink, git指令, 子模組&lt;/p&gt;
 
 
 &lt;h1&gt;wink建立&lt;/h1&gt;
-&lt;p&gt;可以至官方網站下載需要的版本。&lt;/p&gt;
-&lt;p&gt;或直接下載這個安裝檔。&lt;/p&gt;
+&lt;p&gt;可以至官方網站&lt;a href="https://www.debugmode.com/wink.html"&gt;下載&lt;/a&gt;需要的版本。&lt;/p&gt;
+&lt;p&gt;或直接下載這個&lt;a href="https://nfuedu-my.sharepoint.com/personal/41223118_nfu_edu_tw/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments%2Fwinksetup%2Eexe&amp;parent=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments&amp;ga=1"&gt;安裝檔&lt;/a&gt;。&lt;/p&gt;
 &lt;h1&gt;git常用指令&lt;/h1&gt;
 &lt;p&gt;git add . (新增)&lt;/p&gt;
 &lt;p&gt;git commit -m "內容"  (提交及名稱)&lt;/p&gt;
