@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - 2024 w6 課程整理</title><link href="./" rel="alternate"></link><link href="./feeds/2024-w6-ke-cheng-zheng-li.atom.xml" rel="self"></link><id>./</id><updated>2024-06-17T16:37:01+08:00</updated><entry><title>2024 w6 課程整理</title><link href="./2024-Spring-w6-blog-tutorial.html" rel="alternate"></link><published>2024-03-28T10:00:00+08:00</published><updated>2024-06-17T16:37:01+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./2024-Spring-w6-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關說明 git, GPT，git基礎使用&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - 2024 w6 課程整理</title><link href="./" rel="alternate"></link><link href="./feeds/2024-w6-ke-cheng-zheng-li.atom.xml" rel="self"></link><id>./</id><updated>2024-06-17T17:21:58+08:00</updated><entry><title>2024 w6 課程整理</title><link href="./2024-Spring-w6-blog-tutorial.html" rel="alternate"></link><published>2024-03-28T10:00:00+08:00</published><updated>2024-06-17T17:21:58+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./2024-Spring-w6-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關說明 git, GPT，git基礎使用&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關說明 git, GPT，git基礎使用&lt;/p&gt;
 
 
@@ -68,4 +68,24 @@
 &lt;p&gt;5.完成以上步驟後，將Y:\tmp\gitproject\repo1中的倉儲內容送到Y:\tmp\gitserver\repository\repo1目錄中，在C:\tmp\repository&amp;gt;執行 git clone Y:\tmp\gitserver\repository\repo1。&lt;/p&gt;
 &lt;p&gt;(因為沒有特別說明倉儲clone後的目錄名稱，因此git會將Y:\tmp\gitserver\repository\repo1內容複製一份放入 C:\tmp\repository\repo1目錄裡)&lt;/p&gt;
 &lt;p&gt;6.Y:\tmp\gitserver\repository\repo1裡的資料現在已分別存入Y:\tmp\gitproject\repo1與 C:\tmp\repository\repo1裡，可以分別在這兩個倉儲中進行改版 提交，再設法將改版內容push到 Y:\tmp\gitserver\repository\repo1中。&lt;/p&gt;
-&lt;p&gt;(想讓使用者跨網路存取Windows操作系統上的倉儲，請參考這裡)&lt;/p&gt;</content><category term="2024 w6 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry></feed>
+&lt;p&gt;(想讓使用者跨網路存取Windows操作系統上的倉儲，請參考&lt;a href="https://stackoverflow.com/questions/377213/git-serve-i-would-like-it-that-simple"&gt;這裡&lt;/a&gt;)&lt;/p&gt;
+&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;// &lt;![CDATA[
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://messenger-wnvhgxzig1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+// ]]&gt;&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2024 w6 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry></feed>

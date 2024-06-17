@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-17T17:09:20+08:00</updated><entry><title>2024 w14-w16 課程整理</title><link href="./2024-Spring-w15-blog-tutorial.html" rel="alternate"></link><published>2024-05-23T10:00:00+08:00</published><updated>2024-06-17T17:06:16+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-23:./2024-Spring-w15-blog-tutorial.html</id><summary type="html">&lt;p&gt;本週之後都開始複習前幾週內容及以個人和各組的專案內容開始的自由時間&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-17T17:22:39+08:00</updated><entry><title>2024 w14-w16 課程整理</title><link href="./2024-Spring-w15-blog-tutorial.html" rel="alternate"></link><published>2024-05-23T10:00:00+08:00</published><updated>2024-06-17T17:06:16+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-23:./2024-Spring-w15-blog-tutorial.html</id><summary type="html">&lt;p&gt;本週之後都開始複習前幾週內容及以個人和各組的專案內容開始的自由時間&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;本週之後都開始複習前幾週內容及以個人和各組的專案內容開始的自由時間&lt;/p&gt;
 
 
@@ -357,7 +357,7 @@ doc["threejsblock"].bind("click", threejsblock.do)
 &lt;!-- editor2 結束 --&gt;
 &lt;hr&gt;&lt;p&gt;
 &lt;script type="text/javascript" src="https://unpkg.com/three@0.144.0/build/three.js"&gt;&lt;/script&gt;
-&lt;/p&gt;</content><category term="2024 w13 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w12 課程整理</title><link href="./2024-Spring-w13-blog-tutorial.html" rel="alternate"></link><published>2024-05-09T10:00:00+08:00</published><updated>2024-06-17T17:09:20+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-09:./2024-Spring-w13-blog-tutorial.html</id><summary type="html">&lt;p&gt;複習加深前幾週所教學內容&lt;/p&gt;
+&lt;/p&gt;</content><category term="2024 w13 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w12 課程整理</title><link href="./2024-Spring-w13-blog-tutorial.html" rel="alternate"></link><published>2024-05-09T10:00:00+08:00</published><updated>2024-06-17T17:19:07+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-09:./2024-Spring-w13-blog-tutorial.html</id><summary type="html">&lt;p&gt;複習加深前幾週所教學內容&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;複習加深前幾週所教學內容&lt;/p&gt;
 
 
@@ -367,8 +367,7 @@ doc["threejsblock"].bind("click", threejsblock.do)
 &lt;h1&gt;php&lt;/h1&gt;
 &lt;p&gt;學校網站是利用 &lt;a href="https://www.php.net/"&gt;php&lt;/a&gt;(&lt;a href="https://zh.wikipedia.org/zh-tw/PHP"&gt;PHP: Hypertext Preprocessor&lt;/a&gt;)所編寫，課程內容進階的關於學校網站排課系統&lt;/p&gt;
 &lt;h1&gt;猜數字&lt;/h1&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/nVAZJh5PzEM?si=PGLHGAWQD0LJ1BXR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
-
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/nVAZJh5PzEM?si=PGLHGAWQD0LJ1BXR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;這個 demo 如何在同一頁面下納入多個線上 Ace 編輯器與執行按鈕 (&lt;a href="/downloads/practice_html.txt"&gt;practice_html.txt&lt;/a&gt; 動態頁面超文件).&lt;/p&gt;
 &lt;p&gt;&lt;a href="/downloads/practice_html.txt"&gt;practice_html.txt&lt;/a&gt; 動態頁面超文件應該可以在啟動 Brython 時, 設定將 .py 檔案放入 downloads/py 目錄中引用.&lt;/p&gt;
 &lt;p&gt;亦即將所有對應的 html 也使用 Brython 產生, 然後寫為 &lt;a href="https://docs.python.org/3/tutorial/classes.html"&gt;class&lt;/a&gt; 後, 在範例導入時透過 &lt;a href="https://docs.python.org/3/tutorial/classes.html#instance-objects"&gt;instance&lt;/a&gt; 引用.&lt;/p&gt;
@@ -411,8 +410,8 @@ alert("猜對了！答案為" + str(標準答案) + ", 總共猜了" + str(猜�
 &lt;div style="width: 100%; height: 100%;"&gt;&lt;textarea autocomplete="off" id="kw_console1"&gt;&lt;/textarea&gt;&lt;/div&gt;
 &lt;p&gt;&lt;!-- Brython 程式執行的結果, 都以 brython_div1 作為切入位置 --&gt;&lt;/p&gt;
 &lt;div id="brython_div1"&gt;&lt;/div&gt;
-&lt;!-- editor1 結束 --&gt;
-&lt;hr&gt;&lt;!-- ########################################## --&gt;&lt;p&gt;從 1 累加到 100 part2:&lt;/p&gt;
+&lt;!-- editor1 結束 --&gt;&lt;hr&gt;&lt;!-- ########################################## --&gt;
+&lt;p&gt;從 1 累加到 100 part2:&lt;/p&gt;
 &lt;p&gt;&lt;button id="add1to100part2"&gt;1 add to 100&lt;/button&gt;&lt;button id="cango_three_gears"&gt;cango_three_gears&lt;/button&gt;&lt;button id="bsnake"&gt;BSnake&lt;/button&gt;&lt;button id="aitetris"&gt;AI Tetris&lt;/button&gt;&lt;button id="threejsblock"&gt;Rotating Block&lt;/button&gt;&lt;/p&gt;
 &lt;p&gt;&lt;!-- 請注意, 這裡使用 Javascript 將 localStorage["kw_py_src2"] 中存在近端瀏覽器的程式碼, 由使用者決定存檔名稱--&gt;&lt;/p&gt;
 &lt;p&gt;
@@ -530,8 +529,8 @@ doc["threejsblock"].bind("click", threejsblock.do)
 &lt;div style="width: 100%; height: 100%;"&gt;&lt;textarea autocomplete="off" id="kw_console2"&gt;&lt;/textarea&gt;&lt;/div&gt;
 &lt;p&gt;&lt;!-- Brython 程式執行的結果, 都以 brython_div1 作為切入位置 --&gt;&lt;/p&gt;
 &lt;div id="brython_div2"&gt;&lt;/div&gt;
-&lt;!-- editor2 結束 --&gt;
-&lt;hr&gt;&lt;p&gt;
+&lt;!-- editor2 結束 --&gt;&lt;hr&gt;
+&lt;p&gt;
 &lt;script type="text/javascript" src="https://unpkg.com/three@0.144.0/build/three.js"&gt;&lt;/script&gt;
 &lt;/p&gt;</content><category term="2024 w12 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w11 課程整理</title><link href="./2024-Spring-w12-blog-tutorial.html" rel="alternate"></link><published>2024-05-02T10:00:00+08:00</published><updated>2024-06-17T16:55:10+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-02:./2024-Spring-w12-blog-tutorial.html</id><summary type="html">&lt;p&gt;在上週w10中已經讓學員加入了新的評分倉儲網站，以replit進行維護。&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;在上週w10中已經讓學員加入了新的評分倉儲網站，以replit進行維護。&lt;/p&gt;
@@ -723,7 +722,7 @@ doc["threejsblock"].bind("click", threejsblock.do)
 &lt;!-- editor2 結束 --&gt;
 &lt;hr&gt;&lt;p&gt;
 &lt;script type="text/javascript" src="https://unpkg.com/three@0.144.0/build/three.js"&gt;&lt;/script&gt;
-&lt;/p&gt;</content><category term="2024 w11 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w10 課程整理</title><link href="./2024-Spring-w11-blog-tutorial.html" rel="alternate"></link><published>2024-04-26T10:00:00+08:00</published><updated>2024-06-17T16:44:33+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-26:./2024-Spring-w11-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 新的分組倉儲&lt;/p&gt;
+&lt;/p&gt;</content><category term="2024 w11 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w10 課程整理</title><link href="./2024-Spring-w11-blog-tutorial.html" rel="alternate"></link><published>2024-04-26T10:00:00+08:00</published><updated>2024-06-17T17:22:39+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-26:./2024-Spring-w11-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 新的分組倉儲&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關 新的分組倉儲&lt;/p&gt;
 
 
@@ -731,7 +730,27 @@ doc["threejsblock"].bind("click", threejsblock.do)
 &lt;p&gt;需要應對問題為replit的.shh協定無法供免費使用者使用，已經透過github系統設定，現在可以直接在replit進行分組維護，&lt;/p&gt;
 &lt;p&gt;replit目前只剩下對於使用者的&lt;a href="https://replit.com/usage"&gt;總資料儲存量&lt;/a&gt;(10G)限制，當資源存取超過上限時，需要回到github下的對應倉儲帳號進行對應手段。&lt;/p&gt;
 &lt;p&gt;新的分組專案網站：&lt;a href="https://github.com/mdewcm2024/1astud-site"&gt;https://github.com/mdewcm2024/1astud-site&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;(需在teams留言字串進行加入)&lt;/p&gt;</content><category term="2024 w10 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 期中課程整理</title><link href="./2024-Spring-w10-blog-tutorial.html" rel="alternate"></link><published>2024-04-19T10:00:00+08:00</published><updated>2024-06-14T09:12:17+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-19:./2024-Spring-w10-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關本堂課 期中重點統整&lt;/p&gt;
+&lt;p&gt;(需在teams留言字串進行加入)&lt;/p&gt;
+&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;// &lt;![CDATA[
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://messenger-wnvhgxzig1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+// ]]&gt;&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2024 w10 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 期中課程整理</title><link href="./2024-Spring-w10-blog-tutorial.html" rel="alternate"></link><published>2024-04-19T10:00:00+08:00</published><updated>2024-06-14T09:12:17+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-19:./2024-Spring-w10-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關本堂課 期中重點統整&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關本堂課 期中重點統整&lt;/p&gt;
 
 
@@ -773,7 +792,7 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;將 Python 腳本保存為 123.py，並根據自己的 SMTP 設置進行配置。
 輸入執行 python 123.py 發送電子郵件。&lt;/p&gt;
 &lt;h1&gt;使用GPT回應心得&lt;/h1&gt;
-&lt;p&gt;在製作這些程式練習時，我無疑第一時間是先跑去問了GTP來告訴我怎模做，但有些時候其實我覺得他給我的回應並不是我希望的，所以我往往要在這個地方反覆的去尋問他，而不只有用GPT在課堂上導師還介紹了，Google Gemini Pro ， claude.ai 這兩個系統也是我在遇到問題時會去詢問的地方，其中他們的比較我認為是差不多的，都一樣是大數據分析後回應我的結果，但其實三種系統會回應我的內容是不同的，有些時候出來的結果雖然是一樣的，差異卻還是有的，可能是我在每個地方詢問時對想要呈現事務的述說都不相同，但我認為就算說的內容都相同，依照他大數據回應都是從中隨機選擇回答，應該讓我的作法都不會一樣，但在製作的過程，我真認為有些限制真的很麻煩，claude可以無限上傳檔案，卻限制詢問次數 GPT無限制詢問次數，卻限制上傳檔案次數，想要無限制或更好的詢問結果無疑都是要我加錢升級。&lt;/p&gt;</content><category term="2024 w9 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w9 課程整理</title><link href="./2024-Spring-w9-blog-tutorial.html" rel="alternate"></link><published>2024-04-19T10:00:00+08:00</published><updated>2024-06-14T09:18:46+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-19:./2024-Spring-w9-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關本堂課 網際內容管理-Web-based Content Management&lt;/p&gt;
+&lt;p&gt;在製作這些程式練習時，我無疑第一時間是先跑去問了GTP來告訴我怎模做，但有些時候其實我覺得他給我的回應並不是我希望的，所以我往往要在這個地方反覆的去尋問他，而不只有用GPT在課堂上導師還介紹了，Google Gemini Pro ， claude.ai 這兩個系統也是我在遇到問題時會去詢問的地方，其中他們的比較我認為是差不多的，都一樣是大數據分析後回應我的結果，但其實三種系統會回應我的內容是不同的，有些時候出來的結果雖然是一樣的，差異卻還是有的，可能是我在每個地方詢問時對想要呈現事務的述說都不相同，但我認為就算說的內容都相同，依照他大數據回應都是從中隨機選擇回答，應該讓我的作法都不會一樣，但在製作的過程，我真認為有些限制真的很麻煩，claude可以無限上傳檔案，卻限制詢問次數 GPT無限制詢問次數，卻限制上傳檔案次數，想要無限制或更好的詢問結果無疑都是要我加錢升級。&lt;/p&gt;</content><category term="2024 w9 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w9 課程整理</title><link href="./2024-Spring-w9-blog-tutorial.html" rel="alternate"></link><published>2024-04-19T10:00:00+08:00</published><updated>2024-06-17T17:22:26+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-19:./2024-Spring-w9-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關本堂課 網際內容管理-Web-based Content Management&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關本堂課 網際內容管理-Web-based Content Management&lt;/p&gt;
 
 
@@ -781,7 +800,27 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;本門課的目的：利用網頁來管理與個人或專業領域應用相關的內容&lt;/p&gt;
 &lt;p&gt;網際內容管理課程將網頁內容管理系統與網頁資料放在同一個倉儲中，只要有能夠執行 Python 的雲端或近端環境，開啟網頁編輯程式進行改版，上傳資料可在 Github 倉儲中透過 Pages 的全球資訊伺服器呈現網站內容。&lt;/p&gt;
 &lt;p&gt;本課管理系統採用 Python Flask 編寫，超文件的以 H 標註進行分頁外，還有elican 與 Reveal.js 等兩個延伸套件&lt;/p&gt;
-&lt;p&gt;Pelican 可用來建立網誌， Reveal.js 則可用來建立網頁上的簡報資料。&lt;/p&gt;</content><category term="2024 w9 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w8 課程整理</title><link href="./2024-Spring-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-11T10:00:00+08:00</published><updated>2024-06-17T16:38:39+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-11:./2024-Spring-w8-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 教育本質,超連結嵌入影片&lt;/p&gt;
+&lt;p&gt;Pelican 可用來建立網誌， Reveal.js 則可用來建立網頁上的簡報資料。&lt;/p&gt;
+&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;// &lt;![CDATA[
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://messenger-wnvhgxzig1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+// ]]&gt;&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2024 w9 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w8 課程整理</title><link href="./2024-Spring-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-11T10:00:00+08:00</published><updated>2024-06-17T17:22:09+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-11:./2024-Spring-w8-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 教育本質,超連結嵌入影片&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關 教育本質,超連結嵌入影片&lt;/p&gt;
 
 
@@ -800,7 +839,27 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;將複製的超連結內容貼上&lt;/p&gt;
 &lt;p&gt;完成。&lt;/p&gt;
 &lt;p&gt;(註：如需有特別需要可以修改超連結內容來完成所需&lt;/p&gt;
-&lt;p&gt;例：width="560" height="315" 為影片的長寬設定)&lt;/p&gt;</content><category term="2024 w8 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w6 課程整理</title><link href="./2024-Spring-w6-blog-tutorial.html" rel="alternate"></link><published>2024-03-28T10:00:00+08:00</published><updated>2024-06-17T16:37:01+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./2024-Spring-w6-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關說明 git, GPT，git基礎使用&lt;/p&gt;
+&lt;p&gt;例：width="560" height="315" 為影片的長寬設定)&lt;/p&gt;
+&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;// &lt;![CDATA[
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://messenger-wnvhgxzig1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+// ]]&gt;&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2024 w8 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w6 課程整理</title><link href="./2024-Spring-w6-blog-tutorial.html" rel="alternate"></link><published>2024-03-28T10:00:00+08:00</published><updated>2024-06-17T17:21:58+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./2024-Spring-w6-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關說明 git, GPT，git基礎使用&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關說明 git, GPT，git基礎使用&lt;/p&gt;
 
 
@@ -869,7 +928,27 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;5.完成以上步驟後，將Y:\tmp\gitproject\repo1中的倉儲內容送到Y:\tmp\gitserver\repository\repo1目錄中，在C:\tmp\repository&amp;gt;執行 git clone Y:\tmp\gitserver\repository\repo1。&lt;/p&gt;
 &lt;p&gt;(因為沒有特別說明倉儲clone後的目錄名稱，因此git會將Y:\tmp\gitserver\repository\repo1內容複製一份放入 C:\tmp\repository\repo1目錄裡)&lt;/p&gt;
 &lt;p&gt;6.Y:\tmp\gitserver\repository\repo1裡的資料現在已分別存入Y:\tmp\gitproject\repo1與 C:\tmp\repository\repo1裡，可以分別在這兩個倉儲中進行改版 提交，再設法將改版內容push到 Y:\tmp\gitserver\repository\repo1中。&lt;/p&gt;
-&lt;p&gt;(想讓使用者跨網路存取Windows操作系統上的倉儲，請參考這裡)&lt;/p&gt;</content><category term="2024 w6 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w5 課程整理</title><link href="./2024-Spring-w5-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T10:00:00+08:00</published><updated>2024-06-17T16:30:05+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-Spring-w5-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關  Replit key建立&lt;/p&gt;
+&lt;p&gt;(想讓使用者跨網路存取Windows操作系統上的倉儲，請參考&lt;a href="https://stackoverflow.com/questions/377213/git-serve-i-would-like-it-that-simple"&gt;這裡&lt;/a&gt;)&lt;/p&gt;
+&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;// &lt;![CDATA[
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://messenger-wnvhgxzig1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+// ]]&gt;&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2024 w6 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w5 課程整理</title><link href="./2024-Spring-w5-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T10:00:00+08:00</published><updated>2024-06-17T17:20:43+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-Spring-w5-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關  Replit key建立&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關  Replit key建立&lt;/p&gt;
 
 
@@ -878,7 +957,27 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 )&lt;/p&gt;
 &lt;p&gt;主要內容有用.ssh-keygen創建自己的config和id_rsa，刪除重新綁定在replit的倉儲帳號以利重新獲得自己的權限。&lt;/p&gt;
 &lt;p&gt;使用自己下載的&lt;a href="https://nfuedu-my.sharepoint.com/personal/41223118_nfu_edu_tw/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments%2Fportable%5F2024%2E7z&amp;parent=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments&amp;ga=1"&gt;可攜程式檔&lt;/a&gt;裡的Putty-solvespace.exe(&lt;a href="https://www.adobe.com/hk_zh/creativecloud/file-types/image/vector/stl-file.html#%E4%BB%80%E9%BA%BC%E6%98%AF-stl-%E6%AA%94%E6%A1%88"&gt;STL&lt;/a&gt;)，零件檢視方法。(&lt;a href="https://www.youtube.com/watch?v=ep6lDKCU_wo"&gt;詳細影片&lt;/a&gt;
-)&lt;/p&gt;</content><category term="2024 w5 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w4 課程整理</title><link href="./2024-Spring-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-14T10:00:00+08:00</published><updated>2024-06-17T16:26:04+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./2024-Spring-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 gitpod, Replit, 不同網頁編輯, LaTeX, 整理資料&lt;/p&gt;
+)&lt;/p&gt;
+&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;// &lt;![CDATA[
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://messenger-wnvhgxzig1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+// ]]&gt;&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2024 w5 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w4 課程整理</title><link href="./2024-Spring-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-14T10:00:00+08:00</published><updated>2024-06-17T17:20:29+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./2024-Spring-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 gitpod, Replit, 不同網頁編輯, LaTeX, 整理資料&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關 gitpod, Replit, 不同網頁編輯, LaTeX, 整理資料&lt;/p&gt;
 
 
@@ -903,7 +1002,27 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;&lt;a href="https://git-scm.com/book/zh/v2"&gt;https://git-scm.com/book/zh/v2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://nfuedu-my.sharepoint.com/personal/41223118_nfu_edu_tw/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments%2FA%20Tutorial%20for%20GitHub%2Epdf&amp;parent=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments&amp;ga=1"&gt;A Tutorial for GitHub.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources"&gt;github學習資源&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;以上等資料統整至&lt;a href="https://mdewcm2024.github.io/1a-ag4/content/Git%20Tutorial.html"&gt;分組倉儲網站&lt;/a&gt;。&lt;/p&gt;</content><category term="2024 w4 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w3 課程整理</title><link href="./2024-Spring-w3-blog-tutorial.html" rel="alternate"></link><published>2024-03-07T10:00:00+08:00</published><updated>2024-06-17T16:21:49+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./2024-Spring-w3-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 wink, git指令, 子模組&lt;/p&gt;
+&lt;p&gt;以上等資料統整至&lt;a href="https://mdewcm2024.github.io/1a-ag4/content/Git%20Tutorial.html"&gt;分組倉儲網站&lt;/a&gt;。&lt;/p&gt;
+&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;// &lt;![CDATA[
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://messenger-wnvhgxzig1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+// ]]&gt;&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2024 w4 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w3 課程整理</title><link href="./2024-Spring-w3-blog-tutorial.html" rel="alternate"></link><published>2024-03-07T10:00:00+08:00</published><updated>2024-06-17T17:20:16+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./2024-Spring-w3-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 wink, git指令, 子模組&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關 wink, git指令, 子模組&lt;/p&gt;
 
 
@@ -944,7 +1063,27 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;git commit -m "add 學號 submodule"&lt;/p&gt;
 &lt;p&gt;git push&lt;/p&gt;
 &lt;p&gt;以上指令。&lt;/p&gt;
-&lt;p&gt;操作部分是在github的Codespaces上執行，目的是在分組倉儲建立個人子模組。&lt;/p&gt;</content><category term="2024 w3 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w2 課程整理</title><link href="./2024-Spring-w2-blog-tutorial.html" rel="alternate"></link><published>2024-02-29T10:00:00+08:00</published><updated>2024-06-17T15:55:37+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./2024-Spring-w2-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 Disqus, ckmsc39th, Codespaces&lt;/p&gt;
+&lt;p&gt;操作部分是在github的Codespaces上執行，目的是在分組倉儲建立個人子模組。&lt;/p&gt;
+&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;// &lt;![CDATA[
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://messenger-wnvhgxzig1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+// ]]&gt;&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2024 w3 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w2 課程整理</title><link href="./2024-Spring-w2-blog-tutorial.html" rel="alternate"></link><published>2024-02-29T10:00:00+08:00</published><updated>2024-06-17T17:20:03+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./2024-Spring-w2-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 Disqus, ckmsc39th, Codespaces&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關 Disqus, ckmsc39th, Codespaces&lt;/p&gt;
 
 
@@ -969,7 +1108,27 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;2.幾乎與replit的操作系統一樣。(和其最近更新的動態網站連結亂碼)&lt;/p&gt;
 &lt;p&gt;3.受限於這個只是給你試用的，所以有每個月的使用時數上限。&lt;/p&gt;
 &lt;p&gt;以下連結為使用Codespaces編輯維護晚站後的靜態連結：
-&lt;a href="https://zhe41223118.github.io/wcm2024/"&gt;https://zhe41223118.github.io/wcm2024/&lt;/a&gt; &lt;/p&gt;</content><category term="2024 w2 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w1 課程整理</title><link href="./2024-Spring-w0-blog-tutorial.html" rel="alternate"></link><published>2024-02-28T10:00:00+08:00</published><updated>2024-06-17T16:18:19+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-28:./2024-Spring-w0-blog-tutorial.html</id><summary type="html">&lt;p&gt;登錄github,建立個人網站&lt;/p&gt;
+&lt;a href="https://zhe41223118.github.io/wcm2024/"&gt;https://zhe41223118.github.io/wcm2024/&lt;/a&gt; &lt;/p&gt;
+&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;// &lt;![CDATA[
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://messenger-wnvhgxzig1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+// ]]&gt;&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2024 w2 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w1 課程整理</title><link href="./2024-Spring-w0-blog-tutorial.html" rel="alternate"></link><published>2024-02-28T10:00:00+08:00</published><updated>2024-06-17T17:19:37+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-28:./2024-Spring-w0-blog-tutorial.html</id><summary type="html">&lt;p&gt;登錄github,建立個人網站&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;登錄github,建立個人網站&lt;/p&gt;
 
 
@@ -978,7 +1137,27 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;或網上搜尋Github並在登錄後找到Sign up可用來建立課程倉儲與網站&lt;/p&gt;
 &lt;h1&gt;如何建立個人網站&lt;/h1&gt;
 &lt;p&gt;請至 &lt;a href="https://github.com/mdecycu/cmsimde_site"&gt;這個網站&lt;/a&gt;  &lt;/p&gt;
-&lt;p&gt;以此倉儲作為模板，建立個人名稱為 wcm2024 的倉儲，並在至 Github Pages 設定個人的課程網頁網址&lt;/p&gt;</content><category term="w1"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 Spring 課程</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-06-14T07:08:02+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+&lt;p&gt;以此倉儲作為模板，建立個人名稱為 wcm2024 的倉儲，並在至 Github Pages 設定個人的課程網頁網址&lt;/p&gt;
+&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;// &lt;![CDATA[
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://messenger-wnvhgxzig1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+// ]]&gt;&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="w1"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 Spring 課程</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-06-14T07:08:02+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
