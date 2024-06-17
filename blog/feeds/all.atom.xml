@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-17T16:13:36+08:00</updated><entry><title>2024 w13 課程整理</title><link href="./2024-Spring-w14-blog-tutorial.html" rel="alternate"></link><published>2024-05-16T10:00:00+08:00</published><updated>2024-06-14T10:09:46+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-16:./2024-Spring-w14-blog-tutorial.html</id><summary type="html">&lt;p&gt;從教務處主機直接擷取資料，利用nssm&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-17T16:38:39+08:00</updated><entry><title>2024 w13 課程整理</title><link href="./2024-Spring-w14-blog-tutorial.html" rel="alternate"></link><published>2024-05-16T10:00:00+08:00</published><updated>2024-06-14T10:09:46+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-16:./2024-Spring-w14-blog-tutorial.html</id><summary type="html">&lt;p&gt;從教務處主機直接擷取資料，利用nssm&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;從教務處主機直接擷取資料，利用nssm&lt;/p&gt;
 
 
@@ -99,12 +99,14 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;本門課的目的：利用網頁來管理與個人或專業領域應用相關的內容&lt;/p&gt;
 &lt;p&gt;網際內容管理課程將網頁內容管理系統與網頁資料放在同一個倉儲中，只要有能夠執行 Python 的雲端或近端環境，開啟網頁編輯程式進行改版，上傳資料可在 Github 倉儲中透過 Pages 的全球資訊伺服器呈現網站內容。&lt;/p&gt;
 &lt;p&gt;本課管理系統採用 Python Flask 編寫，超文件的以 H 標註進行分頁外，還有elican 與 Reveal.js 等兩個延伸套件&lt;/p&gt;
-&lt;p&gt;Pelican 可用來建立網誌， Reveal.js 則可用來建立網頁上的簡報資料。&lt;/p&gt;</content><category term="2024 w9 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w8 課程整理</title><link href="./2024-Spring-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-11T10:00:00+08:00</published><updated>2024-06-14T07:41:43+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-11:./2024-Spring-w8-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 教育本質,超連結嵌入影片&lt;/p&gt;
+&lt;p&gt;Pelican 可用來建立網誌， Reveal.js 則可用來建立網頁上的簡報資料。&lt;/p&gt;</content><category term="2024 w9 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w8 課程整理</title><link href="./2024-Spring-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-11T10:00:00+08:00</published><updated>2024-06-17T16:38:39+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-11:./2024-Spring-w8-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 教育本質,超連結嵌入影片&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關 教育本質,超連結嵌入影片&lt;/p&gt;
 
 
 &lt;h1&gt;教育本質&lt;/h1&gt;
 &lt;p&gt;介紹教育本質，相關影片如下：&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zmKrkX8Z8UQ?si=AQ5CgXZqX67o-yhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
+
 &lt;h1&gt;如何將影片嵌入進自己網站&lt;/h1&gt;
 &lt;p&gt;將自己想上傳的影片內容&lt;/p&gt;
 &lt;p&gt;先放到yt上，之後至自己的yt影片下&lt;/p&gt;
@@ -116,8 +118,8 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;將複製的超連結內容貼上&lt;/p&gt;
 &lt;p&gt;完成。&lt;/p&gt;
 &lt;p&gt;(註：如需有特別需要可以修改超連結內容來完成所需&lt;/p&gt;
-&lt;p&gt;例：width="560" height="315" 為影片的長寬設定)&lt;/p&gt;</content><category term="2024 w8 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w6 課程整理</title><link href="./2024-Spring-w6-blog-tutorial.html" rel="alternate"></link><published>2024-03-28T10:00:00+08:00</published><updated>2024-06-14T07:23:56+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./2024-Spring-w6-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關說明 git,GPT，git基礎使用&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;有關說明 git,GPT，git基礎使用&lt;/p&gt;
+&lt;p&gt;例：width="560" height="315" 為影片的長寬設定)&lt;/p&gt;</content><category term="2024 w8 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w6 課程整理</title><link href="./2024-Spring-w6-blog-tutorial.html" rel="alternate"></link><published>2024-03-28T10:00:00+08:00</published><updated>2024-06-17T16:37:01+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./2024-Spring-w6-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關說明 git, GPT，git基礎使用&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;有關說明 git, GPT，git基礎使用&lt;/p&gt;
 
 
 &lt;h1&gt;自己對git的使用&lt;/h1&gt;
@@ -125,8 +127,7 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;簡單點就是比方說一個產品有分上下半，我正在做上半部另一個人正在做下半部，最後合併，也可以兩人同時整理上下兩部分，就是最後合併時會有因為彼此設計內容不同而有的衝突問題，需要解決的合併問題。&lt;/p&gt;
 &lt;p&gt;以上自己所理解關於git的使用。&lt;/p&gt;
 &lt;p&gt;而經由與chatGTP的尋問和思索得出：&lt;/p&gt;
-&lt;p&gt;Git是一個分散式版本控制系統，旨在快速且有效率地處理從小到大的專案，&lt;/p&gt;
-&lt;p&gt;幫助團隊協同開發軟體，追蹤程式的變更，並管理不同版本的程式歷程。&lt;/p&gt;
+&lt;p&gt;Git是一個分散式版本控制系統，旨在快速且有效率地處理從小到大的專案，幫助團隊協同開發軟體，追蹤程式的變更，並管理不同版本的程式歷程。&lt;/p&gt;
 &lt;p&gt;基本的使用程式有：&lt;/p&gt;
 &lt;p&gt;git init (建立一個新的Git儲存庫)/mkdir&lt;/p&gt;
 &lt;p&gt;git add . (將檔案加入至暫存區)&lt;/p&gt;
@@ -136,7 +137,7 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;git log (查看提交歷史)&lt;/p&gt;
 &lt;p&gt;git clone (克隆現在存儲庫)&lt;/p&gt;
 &lt;h1&gt;與ChatGPT的對話&lt;/h1&gt;
-&lt;p&gt;Git是由Linus Torvalds於 2005 年開始開發的，當時創作者因個人興趣而創作了Linux作業系統，但當該系統的版本控制BitKeeper被停止免費使用時，創作者開始為 Linux的核心創建自己的版本控制系統。&lt;/p&gt;
+&lt;p&gt;Git是由 &lt;a href="https://zh.wikipedia.org/zh-tw/%E6%9E%97%E7%BA%B3%E6%96%AF%C2%B7%E6%89%98%E7%93%A6%E5%85%B9"&gt;Linus Torvalds&lt;/a&gt; 於 2005 年開始開發的，當時創作者因個人興趣而創作了 &lt;a href="https://zh.wikipedia.org/zh-tw/Linux"&gt;Linux作業系統&lt;/a&gt;，但當該系統的版本控制 &lt;a href="https://zh.wikipedia.org/zh-tw/BitKeeper"&gt;BitKeeper&lt;/a&gt; 被停止免費使用時，創作者開始為 Linux的核心創建自己的版本控制系統。&lt;/p&gt;
 &lt;p&gt;於2005年4月以1.0版本的形式公開發布，最初的版本是基於快照的版本控制系統，本意是提供高速性能和完整的歷史記錄。&lt;/p&gt;
 &lt;p&gt;隨著時間的推移，Git開始在社會得到了廣泛的應用許多，多個軟體製作都開始採用Git作為主要的版本控制系統。&lt;/p&gt;
 &lt;p&gt;於2008年GitHub平台的建立，GitHub 提供了強大的協作功能和社交化的開發環境，吸引了許多創作者和專案組的使用，使Git知名度進一步的提升。&lt;/p&gt;
@@ -146,7 +147,7 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;而關於創作者，他最初是為了個人興趣而開發Linux，並將其發布為開源軟體，這是一個極其簡單的作業系統核心，隨著時間的推移，Linux開源項目發展迅速，逐漸成為一個強大的作業系統，廣泛用於服務器、嵌入式設備和超級計算機等領域。&lt;/p&gt;
 &lt;p&gt;Linux的成功之後，創作者開始致力於其他開源項目，包括 Git分散式版本控制系統，而Git 最初是為了管理 Linux內核開發過程中的版本控制而創建的。&lt;/p&gt;
 &lt;p&gt;在見證了BitKeeper版本控制系統被禁止免費使用後，促使他開發了一個新的版本控制系統，也就是 Git。&lt;/p&gt;
-&lt;p&gt;簡單來說Linus Torvalds是開源社會(Open-source-software movement)的重要領頭人之一。&lt;/p&gt;
+&lt;p&gt;簡單來說Linus Torvalds是開源社會(&lt;a href="https://en.wikipedia.org/wiki/Open-source-software_movement"&gt;Open-source-software movement&lt;/a&gt;)的重要領頭人之一。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Git提供了強大的版本控制和內容管理功能，有助於解決許多與程式、文件和項目管理相關的問題。&lt;/p&gt;
 &lt;p&gt;1.Git可以追蹤文件的歷史變更，並允許用戶輕鬆地回溯到先前的版本，對於開發者來說他們可以隨時查看、比較和恢復文件的不同版本，從而更好地管理。&lt;/p&gt;
@@ -154,13 +155,13 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;3.Git是一個分散式版本控制系統，允許多個開發人員同時在同一個程式庫上工作，開發人員可以通過提交和合併程式來協同製作。&lt;/p&gt;
 &lt;p&gt;4.Git支持遠端存儲庫，可以將程式庫備份到遠端伺服器(如：GitHub)，可以跨不同位置和團隊共享和訪問程式，並提高程式的可用性和可靠性。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Git可以與持續集成和持續部署（CI/CD）工具集成，使得開發團隊可以自動化測試、構建和部署應用程序，從而加快開發週期並提高代碼品質。&lt;/li&gt;
+&lt;li&gt;Git可以與持續集成和持續部署（&lt;a href="https://www.wingwill.com.tw/zh-tw/%E9%83%A8%E8%90%BD%E6%A0%BC/%E9%9B%B2%E5%9C%B0%E6%B7%B7%E5%90%88%E6%87%89%E7%94%A8/cicd%E5%B7%A5%E5%85%B7/"&gt;CI/CD&lt;/a&gt;）工具集成，使得開發團隊可以自動化測試、構建和部署應用程序，從而加快開發週期並提高代碼品質。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1&gt;git application&lt;/h1&gt;
 &lt;p&gt;在chatGTP理解裡demo git client指的是用於演示或展示 Git功能和操作的 Git客戶端，供簡單易用的用戶界面，可以快速了解 Git 的基本操作和流程，demo git client會模擬 git的常見功能，通常是教學或演示目的而設計的，以幫助用戶更好地理解和應用 git 版本控制系統。&lt;/p&gt;
 &lt;p&gt;詢問chatGTP得到這些結論後，自己個人理解為就是對git的基礎灌輸，讓你理解git的運作 原理 如何用及應用，對此我觀看了：git基礎影片，觀看這個網站。&lt;/p&gt;
 &lt;h1&gt;使用demo git client與git server&lt;/h1&gt;
-&lt;p&gt;在Windows上使用git server。(我首先參考了這個網站內容大致理解了如何架設)&lt;/p&gt;
+&lt;p&gt;在Windows上使用git server。(我首先參考了&lt;a href="https://ithelp.ithome.com.tw/articles/10250078?sc=rss.iron"&gt;這個網站&lt;/a&gt;內容大致理解了如何架設)&lt;/p&gt;
 &lt;p&gt;詢問了chatGTP，大致與事前觀看的網站資訊差不多，但GTP特別說明，一定要安裝下載最新版本的Git for Windows 。&lt;/p&gt;
 &lt;p&gt;簡單理解就是需先準備好一個適合的環境，然後使用git創建一個資料庫(git init) 設置SSH訪問認證服務，之後只要在新建好的資料夾執行&lt;/p&gt;
 &lt;p&gt;cd ~&lt;/p&gt;
@@ -186,22 +187,24 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;5.完成以上步驟後，將Y:\tmp\gitproject\repo1中的倉儲內容送到Y:\tmp\gitserver\repository\repo1目錄中，在C:\tmp\repository&amp;gt;執行 git clone Y:\tmp\gitserver\repository\repo1。&lt;/p&gt;
 &lt;p&gt;(因為沒有特別說明倉儲clone後的目錄名稱，因此git會將Y:\tmp\gitserver\repository\repo1內容複製一份放入 C:\tmp\repository\repo1目錄裡)&lt;/p&gt;
 &lt;p&gt;6.Y:\tmp\gitserver\repository\repo1裡的資料現在已分別存入Y:\tmp\gitproject\repo1與 C:\tmp\repository\repo1裡，可以分別在這兩個倉儲中進行改版 提交，再設法將改版內容push到 Y:\tmp\gitserver\repository\repo1中。&lt;/p&gt;
-&lt;p&gt;(想讓使用者跨網路存取Windows操作系統上的倉儲，請參考這裡)&lt;/p&gt;</content><category term="2024 w6 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w5 課程整理</title><link href="./2024-Spring-w5-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T10:00:00+08:00</published><updated>2024-06-14T07:13:13+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-Spring-w5-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關  Replit key建立&lt;/p&gt;
+&lt;p&gt;(想讓使用者跨網路存取Windows操作系統上的倉儲，請參考這裡)&lt;/p&gt;</content><category term="2024 w6 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w5 課程整理</title><link href="./2024-Spring-w5-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T10:00:00+08:00</published><updated>2024-06-17T16:30:05+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-Spring-w5-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關  Replit key建立&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關  Replit key建立&lt;/p&gt;
 
 
 &lt;h1&gt;Replit key建立&lt;/h1&gt;
-&lt;p&gt;講解Replit分組平台倉儲設定。(詳細觀看此TY)&lt;/p&gt;
+&lt;p&gt;講解Replit分組平台倉儲設定。(詳細觀看&lt;a href="https://www.youtube.com/watch?v=syTeJ0kJAow"&gt;此YT&lt;/a&gt;
+)&lt;/p&gt;
 &lt;p&gt;主要內容有用.ssh-keygen創建自己的config和id_rsa，刪除重新綁定在replit的倉儲帳號以利重新獲得自己的權限。&lt;/p&gt;
-&lt;p&gt;使用自己下載的可攜程式檔裡的Putty-solvespace.exe(STL)，零件檢視方法。(詳細影片)&lt;/p&gt;</content><category term="2024 w5 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w4 課程整理</title><link href="./2024-Spring-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-14T10:00:00+08:00</published><updated>2024-06-17T16:13:36+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./2024-Spring-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 gitpod, Replit, 不同網頁編輯, LaTeX, 整理資料&lt;/p&gt;
+&lt;p&gt;使用自己下載的&lt;a href="https://nfuedu-my.sharepoint.com/personal/41223118_nfu_edu_tw/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments%2Fportable%5F2024%2E7z&amp;parent=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments&amp;ga=1"&gt;可攜程式檔&lt;/a&gt;裡的Putty-solvespace.exe(&lt;a href="https://www.adobe.com/hk_zh/creativecloud/file-types/image/vector/stl-file.html#%E4%BB%80%E9%BA%BC%E6%98%AF-stl-%E6%AA%94%E6%A1%88"&gt;STL&lt;/a&gt;)，零件檢視方法。(&lt;a href="https://www.youtube.com/watch?v=ep6lDKCU_wo"&gt;詳細影片&lt;/a&gt;
+)&lt;/p&gt;</content><category term="2024 w5 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w4 課程整理</title><link href="./2024-Spring-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-14T10:00:00+08:00</published><updated>2024-06-17T16:26:04+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./2024-Spring-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 gitpod, Replit, 不同網頁編輯, LaTeX, 整理資料&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關 gitpod, Replit, 不同網頁編輯, LaTeX, 整理資料&lt;/p&gt;
 
 
 &lt;h1&gt;使用gitpod來維護倉儲&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://8000-zhe41223118-wcm2024-g09005qk317.ws-us110.gitpod.io/content/index.html"&gt;https://8000-zhe41223118-wcm2024-g09005qk317.ws-us110.gitpod.io/content/index.html&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://8000-zhe41223118-wcm2024-g09005qk317.ws-us110.gitpod.io/content/index.html"&gt;gitpod動態編輯網頁&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;使用gitpod來維護倉儲，並獲得權限(.ssh-keygen)。&lt;/p&gt;
-&lt;p&gt;備註：因為gitpod它只有每個月50小時的限量，所以使用完需回到gitpod網頁將執行中的倉儲stop，&lt;/p&gt;
 &lt;p&gt;在使用gitpod上傳時會需要先授權與github的合併存取權，否則會無法上傳。&lt;/p&gt;
+&lt;p&gt;備註：因為gitpod它只有每個月50小時的限量，所以使用完需回到gitpod網頁將執行中的倉儲stop，&lt;/p&gt;
 &lt;h1&gt;Replit靜態網站檢視&lt;/h1&gt;
 &lt;p&gt;需下載&lt;a href="https://zhe41223118.github.io/wcm2024/downloads/main2.txt"&gt;main2.txt&lt;/a&gt;和&lt;a href="https://zhe41223118.github.io/wcm2024/downloads/static.txt"&gt;static.txt&lt;/a&gt;取得裡面的main2.py和static.py，將兩個檔案加入至replit編輯(Files)，之後在 Shell 執行 python3 main2.py 就可以執行倉儲內的靜態網站檢視，要取消執行只要在Shell頁面按下Ctrl+C就可以了。&lt;/p&gt;
 &lt;h1&gt;Replit分組網站建立權限&lt;/h1&gt;
@@ -210,14 +213,15 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;h1&gt;replit Codespaces Gitpod&lt;/h1&gt;
 &lt;p&gt;三種網頁編輯執行動態和靜態網站和維護，編輯個人網站的方式不只一種，除了上述三種，能編輯個人網站內容，如：近端維護也是一種，所以當其中一個不能使用時，我們還有另外幾種的維護方式，這變向說明了，在每個人選擇的道路可以有很多種。&lt;/p&gt;
 &lt;h1&gt;LaTeX&lt;/h1&gt;
-&lt;p&gt;期中與期末時需要利用其建立各組的報告，所以需先下載&lt;a href="https://nfuedu-my.sharepoint.com/personal/41223118_nfu_edu_tw/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments%2Fmiktex%2Dportable%2E7z&amp;parent=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments&amp;ga=1"&gt;miktex-portable.7z&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;期中與期末時需要利用其建立各組的報告
+所以需先下載&lt;a href="https://nfuedu-my.sharepoint.com/personal/41223118_nfu_edu_tw/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments%2Fmiktex%2Dportable%2E7z&amp;parent=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments&amp;ga=1"&gt;miktex-portable.7z&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;利用分組倉儲整理資料&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://github.com/git-guides"&gt;https://github.com/git-guides&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="&lt;a href="https://git-scm.com/book/zh-tw/v2"&gt;https://github.com/git-guides&lt;/a&gt;"&gt;https://git-scm.com/book/zh-tw/v2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://git-scm.com/book/zh-tw/v2"&gt;https://git-scm.com/book/zh-tw/v2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://git-scm.com/book/zh/v2"&gt;https://git-scm.com/book/zh/v2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://nfuedu-my.sharepoint.com/personal/41223118_nfu_edu_tw/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments%2FA%20Tutorial%20for%20GitHub%2Epdf&amp;parent=%2Fpersonal%2F41223118%5Fnfu%5Fedu%5Ftw%2FDocuments&amp;ga=1"&gt;A Tutorial for GitHub.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources"&gt;github學習資源&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;以上等資料統整至&lt;a href="https://mdewcm2024.github.io/1a-ag4/content/Git%20Tutorial.html"&gt;分組倉儲網站&lt;/a&gt;。&lt;/p&gt;</content><category term="2024 w4 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w3 課程整理</title><link href="./2024-Spring-w3-blog-tutorial.html" rel="alternate"></link><published>2024-03-07T10:00:00+08:00</published><updated>2024-06-17T16:05:48+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./2024-Spring-w3-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 wink, git指令, 子模組&lt;/p&gt;
+&lt;p&gt;以上等資料統整至&lt;a href="https://mdewcm2024.github.io/1a-ag4/content/Git%20Tutorial.html"&gt;分組倉儲網站&lt;/a&gt;。&lt;/p&gt;</content><category term="2024 w4 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w3 課程整理</title><link href="./2024-Spring-w3-blog-tutorial.html" rel="alternate"></link><published>2024-03-07T10:00:00+08:00</published><updated>2024-06-17T16:21:49+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./2024-Spring-w3-blog-tutorial.html</id><summary type="html">&lt;p&gt;有關 wink, git指令, 子模組&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;有關 wink, git指令, 子模組&lt;/p&gt;
 
 
@@ -246,7 +250,9 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;dns (將英文名稱轉為數字IP 問server(伺服器)IP地址 DNS會先查詢自己資料庫)&lt;/p&gt;
 &lt;p&gt;dir (顯示某個磁碟指定目錄下的全部或部分檔案目錄和子目錄)&lt;/p&gt;
 &lt;h1&gt;在分組網站建立子模組&lt;/h1&gt;
-&lt;p&gt;主要還是參照導師的這個影片和網頁來完成的。&lt;/p&gt;
+&lt;p&gt;主要還是參照導師的&lt;a href="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/stream.aspx?id=%2Fpersonal%2Fyen%5Fnfu%5Fedu%5Ftw%2FDocuments%2F2024%2Fwcm2024%2Fvideo%2Fwcm2024%5F1a%5Fw3%5F2%5F%E5%B0%87%E7%B5%84%E5%93%A1%E7%9A%84%E5%80%8B%E4%BA%BA%E5%80%89%E5%84%B2%E7%B4%8D%E7%82%BA%E5%88%86%E7%B5%84%E5%80%89%E5%84%B2%E7%9A%84%E5%AD%90%E6%A8%A1%E7%B5%84%2Emp4&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;ga=1&amp;referrer=StreamWebApp%2EWeb&amp;referrerScenario=AddressBarCopied%2Eview%2E851c7aab%2D09ad%2D4bf0%2D9e28%2D3d71dc90fa96"&gt;這個影片&lt;/a&gt;
+和&lt;a href="https://blog.kennycoder.io/2020/06/14/Git-submodule-%E4%BD%BF%E7%94%A8%E6%95%99%E5%AD%B8/"&gt;網頁&lt;/a&gt;
+來完成的。&lt;/p&gt;
 &lt;p&gt;整理了導師在影片中應用到的指令：&lt;/p&gt;
 &lt;p&gt;git status&lt;/p&gt;
 &lt;p&gt;ls -l&lt;/p&gt;
@@ -281,13 +287,13 @@ Google Chrome是程式設計師最容易使用的瀏覽器，話雖這麼說，�
 &lt;p&gt;2.幾乎與replit的操作系統一樣。(和其最近更新的動態網站連結亂碼)&lt;/p&gt;
 &lt;p&gt;3.受限於這個只是給你試用的，所以有每個月的使用時數上限。&lt;/p&gt;
 &lt;p&gt;以下連結為使用Codespaces編輯維護晚站後的靜態連結：
-&lt;a href="https://zhe41223118.github.io/wcm2024/"&gt;https://zhe41223118.github.io/wcm2024/&lt;/a&gt; &lt;/p&gt;</content><category term="2024 w2 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w1 課程整理</title><link href="./2024-Spring-w0-blog-tutorial.html" rel="alternate"></link><published>2024-02-28T10:00:00+08:00</published><updated>2024-06-17T15:53:15+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-28:./2024-Spring-w0-blog-tutorial.html</id><summary type="html">&lt;p&gt;登陸github,建立個人網站&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;登陸github,建立個人網站&lt;/p&gt;
+&lt;a href="https://zhe41223118.github.io/wcm2024/"&gt;https://zhe41223118.github.io/wcm2024/&lt;/a&gt; &lt;/p&gt;</content><category term="2024 w2 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w1 課程整理</title><link href="./2024-Spring-w0-blog-tutorial.html" rel="alternate"></link><published>2024-02-28T10:00:00+08:00</published><updated>2024-06-17T16:18:19+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-28:./2024-Spring-w0-blog-tutorial.html</id><summary type="html">&lt;p&gt;登錄github,建立個人網站&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;登錄github,建立個人網站&lt;/p&gt;
 
 
 &lt;h1&gt;建立Github帳號&lt;/h1&gt;
 &lt;p&gt;點擊&lt;a href="https://github.com/"&gt;這裡&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;或網上搜尋Github並在登陸後找到Sign up可用來建立課程倉儲與網站&lt;/p&gt;
+&lt;p&gt;或網上搜尋Github並在登錄後找到Sign up可用來建立課程倉儲與網站&lt;/p&gt;
 &lt;h1&gt;如何建立個人網站&lt;/h1&gt;
 &lt;p&gt;請至 &lt;a href="https://github.com/mdecycu/cmsimde_site"&gt;這個網站&lt;/a&gt;  &lt;/p&gt;
 &lt;p&gt;以此倉儲作為模板，建立個人名稱為 wcm2024 的倉儲，並在至 Github Pages 設定個人的課程網頁網址&lt;/p&gt;</content><category term="w1"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 Spring 課程</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-06-14T07:08:02+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
