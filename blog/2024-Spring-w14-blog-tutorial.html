@@ -60,7 +60,7 @@
 <meta property="og:url" content="./2024-Spring-w14-blog-tutorial.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2024-05-16 10:00:00+08:00"/>
-<meta property="article:modified_time" content="2024-06-17 16:52:54.565070+08:00"/>
+<meta property="article:modified_time" content="2024-06-17 17:44:00.031989+08:00"/>
 <meta property="article:author" content="./author/kmol.html">
 <meta property="article:section" content="2024 w13 課程整理"/>
 <meta property="article:tag" content="網誌編寫"/>
@@ -76,7 +76,7 @@
   "name": "2024 w13 課程整理",
   "headline": "2024 w13 課程整理",
   "datePublished": "2024-05-16 10:00:00+08:00",
-  "dateModified": "2024-06-17 16:52:54.565070+08:00",
+  "dateModified": "2024-06-17 17:44:00.031989+08:00",
   "author": {
     "@type": "Person",
     "name": "kmol",
@@ -236,10 +236,127 @@ init_mathjax();
                 <p>從教務處主機直接擷取資料，利用nssm</p>
 
 
-<h1>擷取網頁資料</h1>
-<p>1.從教務處主機直接擷取資料</p>
-<p>2.利用nssm將擷取來的資料持續保留在頁面</p>
-<p>3.猜數字遊戲</p>
+<h1>取下各學期班級課表</h1>
+<p><span>利用以下字串至可攜程式內以<span style="background-color: #ffff00;">python</span>執行</span></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">from flask import Flask, request 
+from flask_cors import CORS
+
+import requests
+import bs4
+
+'''
+機械設計系各班 classid:
+42310: 42310四設計一訓
+
+42311: 42311四設計一甲
+42312: 42312四設計一乙
+
+42319: 42319四設計系一攜
+42320: 42320四設計二訓
+
+42321: 42321四設計二甲
+42322: 42322四設計二乙
+
+42329: 42329四設計系二攜
+42330: 42330四設計三訓
+
+42331: 42331四設計三甲
+42332: 42332四設計三乙
+
+42339: 42339四設計系三攜
+42340: 42340四設計四訓
+
+42341: 42341四設計四甲
+42342: 42342四設計四乙
+
+42349: 42349四設計系四攜
+
+第 112 學年第 2 學期, 查詢設一甲的班級課表
+
+https://localhost:9447/?semester=1122&amp;classid=設一甲
+'''
+# 將班級中文縮寫與代號存入 mde dict
+
+mde ={
+"設一訓": "42310",
+"設一甲": "42311",
+"設一乙": "42312",
+"設一攜": "42319",
+"設二訓": "42320",
+"設二甲": "42321",
+"設二乙": "42322",
+"設二攜": "42329",
+"設三訓": "42330",
+"設三甲": "42331",
+"設三乙": "42332",
+"設三攜": "42339",
+"設四訓": "42340",
+"設四甲": "42341",
+"設四乙": "42342",
+"設四攜": "42349"
+}
+
+app = Flask(__name__)
+CORS(app)
+
+@app.route('/studlist')
+@app.route('/')
+def studlist():
+    semester = request.args.get('semester')
+    classid = request.args.get('classid')
+    column = request.args.get('column')
+
+    if semester == None:
+        semester = '1121'
+    if classid == None:
+        #設一甲
+        classid = '設一甲'
+    # 透過 mde dict 將班級中文縮寫轉為代號
+    try:
+        selclss = mde[classid]
+    except:
+        return "查無資料"
+
+    headers = {'X-Requested-With': 'XMLHttpRequest'}
+
+    url = 'https://qry.nfu.edu.tw/jclass_ajax.php'
+    #post_var = {'pselyr': semester, 'pselclss': classid}
+    post_var = {'pselyr': semester, 'pselclss': selclss}
+
+    result = requests.post(url, data = post_var, headers = headers)
+    #soup = bs4.BeautifulSoup(result.content, 'lxml')
+    soup = bs4.BeautifulSoup(result.content, 'lxml', from_encoding='utf-8')
+    # 列出 soup 物件的字元
+    #print(str(soup))
+    table = soup.find('table', {'class': 'tbcls'})
+    # 添加border屬性
+    table['border'] = "1"
+    # 返回帶有border屬性的table HTML
+    table_html = table.prettify()
+    return table_html
+    #return  str(pselyr) + " + " +str(pseqno)
+
+if __name__ == '__main__':
+    app.run(host='127.0.0.1', port=9447, debug=True, ssl_context="adhoc")</pre>
+<p><span style="background-color: #ccffcc;">(可以利用<strong>pip list</strong> 確認所需模組) 需要Flask和Flask-Cors兩個模組，所用版本也會寫在一旁</span></p>
+
+<h1>設為系統服務</h1>
+<p>將取下資料常駐執行在網路頁面上。</p>
+<p>是利用了<a href="https://nssm.cc/usage">NSSM</a>(the Non-Sucking Service Manager)這樣工具。</p>
+<p>執行前要先確認先前的程式能夠單獨運行起來，<a href="https://docs.pylonsproject.org/projects/waitress/en/stable/index.html">python waitress</a> 模組文獻</p>
+<p>1.先在<span style="background-color: #ffff99;">進階防火牆內-進階輸入規則</span>，點擊右側<span style="background-color: #ffff99;">新增規則</span>新增9447新的連接埠。</p>
+<p>2.經由詢問chatGTB和個人修改後得出</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">from waitress import serve
+import 9447_nfu as ns
+
+if __name__=="__main__":
+    serve(app, host='120.0.0.1', port=9447, threads=4)</pre>
+<p>以python執行</p>
+<p>3.到主機cmd執行</p>
+<p>nssm edit 9447_nfu 確認設定的目錄</p>
+<p>4.到主機-電腦管理-服務與應用程式，查看是否有自己設定的服務器(9447_nfu)</p>
+<p></p>
+
 <p>這個 demo 如何在同一頁面下納入多個線上 Ace 編輯器與執行按鈕 (<a href="/downloads/practice_html.txt">practice_html.txt</a> 動態頁面超文件).</p>
 <p><a href="/downloads/practice_html.txt">practice_html.txt</a> 動態頁面超文件應該可以在啟動 Brython 時, 設定將 .py 檔案放入 downloads/py 目錄中引用.</p>
 <p>亦即將所有對應的 html 也使用 Brython 產生, 然後寫為 <a href="https://docs.python.org/3/tutorial/classes.html">class</a> 後, 在範例導入時透過 <a href="https://docs.python.org/3/tutorial/classes.html#instance-objects">instance</a> 引用.</p>

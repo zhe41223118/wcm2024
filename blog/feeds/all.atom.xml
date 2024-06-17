@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-17T17:30:46+08:00</updated><entry><title>2024 w14-w16 課程整理</title><link href="./2024-Spring-w15-blog-tutorial.html" rel="alternate"></link><published>2024-05-23T10:00:00+08:00</published><updated>2024-06-17T17:06:16+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-23:./2024-Spring-w15-blog-tutorial.html</id><summary type="html">&lt;p&gt;本週之後都開始複習前幾週內容及以個人和各組的專案內容開始的自由時間&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-17T17:44:25+08:00</updated><entry><title>2024 w14-w16 課程整理</title><link href="./2024-Spring-w15-blog-tutorial.html" rel="alternate"></link><published>2024-05-23T10:00:00+08:00</published><updated>2024-06-17T17:06:16+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-23:./2024-Spring-w15-blog-tutorial.html</id><summary type="html">&lt;p&gt;本週之後都開始複習前幾週內容及以個人和各組的專案內容開始的自由時間&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;本週之後都開始複習前幾週內容及以個人和各組的專案內容開始的自由時間&lt;/p&gt;
 
 
@@ -185,14 +185,131 @@ doc["threejsblock"].bind("click", threejsblock.do)
 &lt;!-- editor2 結束 --&gt;
 &lt;hr&gt;&lt;p&gt;
 &lt;script type="text/javascript" src="https://unpkg.com/three@0.144.0/build/three.js"&gt;&lt;/script&gt;
-&lt;/p&gt;</content><category term="2024 w13 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w13 課程整理</title><link href="./2024-Spring-w14-blog-tutorial.html" rel="alternate"></link><published>2024-05-16T10:00:00+08:00</published><updated>2024-06-17T16:52:54+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-16:./2024-Spring-w14-blog-tutorial.html</id><summary type="html">&lt;p&gt;從教務處主機直接擷取資料，利用nssm&lt;/p&gt;
+&lt;/p&gt;</content><category term="2024 w13 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w13 課程整理</title><link href="./2024-Spring-w14-blog-tutorial.html" rel="alternate"></link><published>2024-05-16T10:00:00+08:00</published><updated>2024-06-17T17:44:00+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-16:./2024-Spring-w14-blog-tutorial.html</id><summary type="html">&lt;p&gt;從教務處主機直接擷取資料，利用nssm&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;從教務處主機直接擷取資料，利用nssm&lt;/p&gt;
 
 
-&lt;h1&gt;擷取網頁資料&lt;/h1&gt;
-&lt;p&gt;1.從教務處主機直接擷取資料&lt;/p&gt;
-&lt;p&gt;2.利用nssm將擷取來的資料持續保留在頁面&lt;/p&gt;
-&lt;p&gt;3.猜數字遊戲&lt;/p&gt;
+&lt;h1&gt;取下各學期班級課表&lt;/h1&gt;
+&lt;p&gt;&lt;span&gt;利用以下字串至可攜程式內以&lt;span style="background-color: #ffff00;"&gt;python&lt;/span&gt;執行&lt;/span&gt;&lt;/p&gt;
+&lt;pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"&gt;from flask import Flask, request 
+from flask_cors import CORS
+
+import requests
+import bs4
+
+'''
+機械設計系各班 classid:
+42310: 42310四設計一訓
+
+42311: 42311四設計一甲
+42312: 42312四設計一乙
+
+42319: 42319四設計系一攜
+42320: 42320四設計二訓
+
+42321: 42321四設計二甲
+42322: 42322四設計二乙
+
+42329: 42329四設計系二攜
+42330: 42330四設計三訓
+
+42331: 42331四設計三甲
+42332: 42332四設計三乙
+
+42339: 42339四設計系三攜
+42340: 42340四設計四訓
+
+42341: 42341四設計四甲
+42342: 42342四設計四乙
+
+42349: 42349四設計系四攜
+
+第 112 學年第 2 學期, 查詢設一甲的班級課表
+
+https://localhost:9447/?semester=1122&amp;amp;classid=設一甲
+'''
+# 將班級中文縮寫與代號存入 mde dict
+
+mde ={
+"設一訓": "42310",
+"設一甲": "42311",
+"設一乙": "42312",
+"設一攜": "42319",
+"設二訓": "42320",
+"設二甲": "42321",
+"設二乙": "42322",
+"設二攜": "42329",
+"設三訓": "42330",
+"設三甲": "42331",
+"設三乙": "42332",
+"設三攜": "42339",
+"設四訓": "42340",
+"設四甲": "42341",
+"設四乙": "42342",
+"設四攜": "42349"
+}
+
+app = Flask(__name__)
+CORS(app)
+
+@app.route('/studlist')
+@app.route('/')
+def studlist():
+    semester = request.args.get('semester')
+    classid = request.args.get('classid')
+    column = request.args.get('column')
+
+    if semester == None:
+        semester = '1121'
+    if classid == None:
+        #設一甲
+        classid = '設一甲'
+    # 透過 mde dict 將班級中文縮寫轉為代號
+    try:
+        selclss = mde[classid]
+    except:
+        return "查無資料"
+
+    headers = {'X-Requested-With': 'XMLHttpRequest'}
+
+    url = 'https://qry.nfu.edu.tw/jclass_ajax.php'
+    #post_var = {'pselyr': semester, 'pselclss': classid}
+    post_var = {'pselyr': semester, 'pselclss': selclss}
+
+    result = requests.post(url, data = post_var, headers = headers)
+    #soup = bs4.BeautifulSoup(result.content, 'lxml')
+    soup = bs4.BeautifulSoup(result.content, 'lxml', from_encoding='utf-8')
+    # 列出 soup 物件的字元
+    #print(str(soup))
+    table = soup.find('table', {'class': 'tbcls'})
+    # 添加border屬性
+    table['border'] = "1"
+    # 返回帶有border屬性的table HTML
+    table_html = table.prettify()
+    return table_html
+    #return  str(pselyr) + " + " +str(pseqno)
+
+if __name__ == '__main__':
+    app.run(host='127.0.0.1', port=9447, debug=True, ssl_context="adhoc")&lt;/pre&gt;
+&lt;p&gt;&lt;span style="background-color: #ccffcc;"&gt;(可以利用&lt;strong&gt;pip list&lt;/strong&gt; 確認所需模組) 需要Flask和Flask-Cors兩個模組，所用版本也會寫在一旁&lt;/span&gt;&lt;/p&gt;
+
+&lt;h1&gt;設為系統服務&lt;/h1&gt;
+&lt;p&gt;將取下資料常駐執行在網路頁面上。&lt;/p&gt;
+&lt;p&gt;是利用了&lt;a href="https://nssm.cc/usage"&gt;NSSM&lt;/a&gt;(the Non-Sucking Service Manager)這樣工具。&lt;/p&gt;
+&lt;p&gt;執行前要先確認先前的程式能夠單獨運行起來，&lt;a href="https://docs.pylonsproject.org/projects/waitress/en/stable/index.html"&gt;python waitress&lt;/a&gt; 模組文獻&lt;/p&gt;
+&lt;p&gt;1.先在&lt;span style="background-color: #ffff99;"&gt;進階防火牆內-進階輸入規則&lt;/span&gt;，點擊右側&lt;span style="background-color: #ffff99;"&gt;新增規則&lt;/span&gt;新增9447新的連接埠。&lt;/p&gt;
+&lt;p&gt;2.經由詢問chatGTB和個人修改後得出&lt;/p&gt;
+&lt;pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"&gt;from waitress import serve
+import 9447_nfu as ns
+
+if __name__=="__main__":
+    serve(app, host='120.0.0.1', port=9447, threads=4)&lt;/pre&gt;
+&lt;p&gt;以python執行&lt;/p&gt;
+&lt;p&gt;3.到主機cmd執行&lt;/p&gt;
+&lt;p&gt;nssm edit 9447_nfu 確認設定的目錄&lt;/p&gt;
+&lt;p&gt;4.到主機-電腦管理-服務與應用程式，查看是否有自己設定的服務器(9447_nfu)&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;這個 demo 如何在同一頁面下納入多個線上 Ace 編輯器與執行按鈕 (&lt;a href="/downloads/practice_html.txt"&gt;practice_html.txt&lt;/a&gt; 動態頁面超文件).&lt;/p&gt;
 &lt;p&gt;&lt;a href="/downloads/practice_html.txt"&gt;practice_html.txt&lt;/a&gt; 動態頁面超文件應該可以在啟動 Brython 時, 設定將 .py 檔案放入 downloads/py 目錄中引用.&lt;/p&gt;
 &lt;p&gt;亦即將所有對應的 html 也使用 Brython 產生, 然後寫為 &lt;a href="https://docs.python.org/3/tutorial/classes.html"&gt;class&lt;/a&gt; 後, 在範例導入時透過 &lt;a href="https://docs.python.org/3/tutorial/classes.html#instance-objects"&gt;instance&lt;/a&gt; 引用.&lt;/p&gt;
@@ -357,7 +474,7 @@ doc["threejsblock"].bind("click", threejsblock.do)
 &lt;!-- editor2 結束 --&gt;
 &lt;hr&gt;&lt;p&gt;
 &lt;script type="text/javascript" src="https://unpkg.com/three@0.144.0/build/three.js"&gt;&lt;/script&gt;
-&lt;/p&gt;</content><category term="2024 w13 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w12 課程整理</title><link href="./2024-Spring-w13-blog-tutorial.html" rel="alternate"></link><published>2024-05-09T10:00:00+08:00</published><updated>2024-06-17T17:30:46+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-09:./2024-Spring-w13-blog-tutorial.html</id><summary type="html">&lt;p&gt;複習加深前幾週所教學內容&lt;/p&gt;
+&lt;/p&gt;</content><category term="2024 w13 課程整理"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>2024 w12 課程整理</title><link href="./2024-Spring-w13-blog-tutorial.html" rel="alternate"></link><published>2024-05-09T10:00:00+08:00</published><updated>2024-06-17T17:44:25+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-09:./2024-Spring-w13-blog-tutorial.html</id><summary type="html">&lt;p&gt;複習加深前幾週所教學內容&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;複習加深前幾週所教學內容&lt;/p&gt;
 
 
@@ -366,110 +483,6 @@ doc["threejsblock"].bind("click", threejsblock.do)
 &lt;p&gt;WSGIserver(Web Server Gateway Interface)：具有高效、易於使用和可擴展性等特點，是 Python 中用於定義 Web 應用程序與 Web 服務器之間通信的標準界面。(&lt;a href="https://pypi.org/project/WSGIserver/"&gt;參考&lt;/a&gt;)&lt;/p&gt;
 &lt;h1&gt;php&lt;/h1&gt;
 &lt;p&gt;學校網站是利用 &lt;a href="https://www.php.net/"&gt;php&lt;/a&gt;(&lt;a href="https://zh.wikipedia.org/zh-tw/PHP"&gt;PHP: Hypertext Preprocessor&lt;/a&gt;)所編寫，課程內容進階的關於學校網站排課系統&lt;/p&gt;
-&lt;h1&gt;取下各學期班級課表&lt;/h1&gt;
-&lt;p&gt;&lt;span&gt;利用以下字串至可攜程式內以&lt;span style="background-color: #ffff00;"&gt;python&lt;/span&gt;執行&lt;/span&gt;&lt;/p&gt;
-&lt;pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"&gt;from flask import Flask, request 
-from flask_cors import CORS
-
-import requests
-import bs4
-
-'''
-機械設計系各班 classid:
-42310: 42310四設計一訓
-
-42311: 42311四設計一甲
-42312: 42312四設計一乙
-
-42319: 42319四設計系一攜
-42320: 42320四設計二訓
-
-42321: 42321四設計二甲
-42322: 42322四設計二乙
-
-42329: 42329四設計系二攜
-42330: 42330四設計三訓
-
-42331: 42331四設計三甲
-42332: 42332四設計三乙
-
-42339: 42339四設計系三攜
-42340: 42340四設計四訓
-
-42341: 42341四設計四甲
-42342: 42342四設計四乙
-
-42349: 42349四設計系四攜
-
-第 112 學年第 2 學期, 查詢設一甲的班級課表
-
-https://localhost:9447/?semester=1122&amp;amp;classid=設一甲
-'''
-# 將班級中文縮寫與代號存入 mde dict
-
-mde ={
-"設一訓": "42310",
-"設一甲": "42311",
-"設一乙": "42312",
-"設一攜": "42319",
-"設二訓": "42320",
-"設二甲": "42321",
-"設二乙": "42322",
-"設二攜": "42329",
-"設三訓": "42330",
-"設三甲": "42331",
-"設三乙": "42332",
-"設三攜": "42339",
-"設四訓": "42340",
-"設四甲": "42341",
-"設四乙": "42342",
-"設四攜": "42349"
-}
-
-app = Flask(__name__)
-CORS(app)
-
-@app.route('/studlist')
-@app.route('/')
-def studlist():
-    semester = request.args.get('semester')
-    classid = request.args.get('classid')
-    column = request.args.get('column')
-
-    if semester == None:
-        semester = '1121'
-    if classid == None:
-        #設一甲
-        classid = '設一甲'
-    # 透過 mde dict 將班級中文縮寫轉為代號
-    try:
-        selclss = mde[classid]
-    except:
-        return "查無資料"
-
-    headers = {'X-Requested-With': 'XMLHttpRequest'}
-
-    url = 'https://qry.nfu.edu.tw/jclass_ajax.php'
-    #post_var = {'pselyr': semester, 'pselclss': classid}
-    post_var = {'pselyr': semester, 'pselclss': selclss}
-
-    result = requests.post(url, data = post_var, headers = headers)
-    #soup = bs4.BeautifulSoup(result.content, 'lxml')
-    soup = bs4.BeautifulSoup(result.content, 'lxml', from_encoding='utf-8')
-    # 列出 soup 物件的字元
-    #print(str(soup))
-    table = soup.find('table', {'class': 'tbcls'})
-    # 添加border屬性
-    table['border'] = "1"
-    # 返回帶有border屬性的table HTML
-    table_html = table.prettify()
-    return table_html
-    #return  str(pselyr) + " + " +str(pseqno)
-
-if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=9447, debug=True, ssl_context="adhoc")&lt;/pre&gt;
-&lt;p&gt;&lt;span style="background-color: #ccffcc;"&gt;(可以利用&lt;strong&gt;pip list&lt;/strong&gt; 確認所需模組) 需要Flask和Flask-Cors兩個模組，所用版本也會寫在一旁&lt;/span&gt;&lt;/p&gt;
-
 &lt;h1&gt;猜數字&lt;/h1&gt;
 &lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/nVAZJh5PzEM?si=PGLHGAWQD0LJ1BXR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;這個 demo 如何在同一頁面下納入多個線上 Ace 編輯器與執行按鈕 (&lt;a href="/downloads/practice_html.txt"&gt;practice_html.txt&lt;/a&gt; 動態頁面超文件).&lt;/p&gt;
