@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-06-14T10:56:38-00:00</lastmod>
+<lastmod>2024-06-17T15:48:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-06-14T10:56:38-00:00</lastmod>
+<lastmod>2024-06-17T15:48:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-06-14T10:56:38-00:00</lastmod>
+<lastmod>2024-06-17T15:48:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-06-14T10:56:38-00:00</lastmod>
+<lastmod>2024-06-17T15:48:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -123,6 +123,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./2024-Spring-w0-blog-tutorial.html</loc>
+<lastmod>2024-06-17T15:47:44+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./2024-Spring-w1-blog-tutorial.html</loc>
 <lastmod>2024-06-14T07:08:02+08:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -208,28 +215,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/w1.html</loc>
-<lastmod>2024-06-14T07:08:02+08:06</lastmod>
+<lastmod>2024-06-17T15:47:44+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/wang-zhi-bian-xie.html</loc>
-<lastmod>2024-06-14T10:56:35+08:06</lastmod>
+<lastmod>2024-06-17T15:47:44+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/pelican.html</loc>
-<lastmod>2024-06-14T10:56:35+08:06</lastmod>
+<lastmod>2024-06-17T15:47:44+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/kmol.html</loc>
-<lastmod>2024-06-14T10:56:35+08:06</lastmod>
+<lastmod>2024-06-17T15:47:44+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
